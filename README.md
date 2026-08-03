@@ -2,8 +2,29 @@
 
 Sito statico generato automaticamente da `data/piano_alimentare.xlsx`.
 Due sezioni separate (Giovanni e Rosalia), ogni pasto del piano è cliccabile e
-porta alla ricetta corrispondente, più ricettario cercabile, lista della spesa
-con le spunte e le ricette da provare.
+porta alla ricetta corrispondente, più ricettario unico cercabile, lista della
+spesa con le spunte e le ricette da provare.
+
+## Lista della spesa unita
+
+Di default la spesa mostra **una lista per settimana** che mette insieme Giovanni
+e la settimana corrispondente di Rosalia, sommando i prodotti uguali (`Petto di
+pollo 510 g + 680 g → 1.19 kg`). Sotto ogni voce sommata resta scritto quanto
+tocca a ciascuno. Il pulsante *Vedi separate* torna alle liste originali del
+foglio.
+
+Due nomi vengono considerati lo stesso prodotto quando coincidono a meno di:
+ordine delle parole (`Macinato di manzo magro` = `Macinato magro di manzo`),
+parentesi (`Petto di pollo (crudo)` = `Petto di pollo`), percentuali
+(`Yogurt greco 2%` = `Yogurt greco`), qualificatori finali (`Fagioli cannellini
+cotti` = `Fagioli cannellini`).
+
+Quando invece la parola è proprio diversa serve una riga in
+**`scripts/alias_spesa.json`** (già presenti: `Olio EVO` = `Olio extravergine
+d'oliva`, `Petto di tacchino` = `Fesa di tacchino`, `Grana a scaglie` /
+`Grana grattugiato` = `Grana`). Se manca un alias non si rompe niente: il
+prodotto resta su due righe separate, e a ogni build lo script elenca le voci
+presenti in una sola lista, così si vede subito se ce n'è una da collegare.
 
 ## Come si aggiorna
 
@@ -25,6 +46,7 @@ ogni push.
 ```
 data/piano_alimentare.xlsx     il file sorgente, l'unica cosa da aggiornare
 scripts/build_data.py          legge l'xlsx e scrive site/data/plan.json
+scripts/alias_spesa.json       prodotti con nomi diversi da unire nella spesa
 site/                          il sito (HTML + CSS + JS, nessuna dipendenza)
 .github/workflows/deploy.yml   rigenera e pubblica a ogni push
 ```

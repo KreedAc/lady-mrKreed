@@ -166,7 +166,12 @@
       );
     });
 
+    var totaleRicette = DATA.people.reduce(function (acc, p) {
+      return acc + p.recipes.length;
+    }, 0);
+
     var quick = [
+      { href: "#/ricettario", emoji: "📖", title: "Ricettario", sub: totaleRicette + " ricette di Giovanni e Rosalia" },
       { href: "#/spesa", emoji: "🛒", title: "Lista della spesa", sub: "Con le spunte che restano salvate" },
       { href: "#/prova", emoji: "🧪", title: "Ricette da provare", sub: DATA.to_try.recipes.length + " idee non ancora nel piano" },
     ].map(function (item) {
@@ -454,10 +459,16 @@
     return wrapper;
   }
 
+  /* Ricettario: senza persona mostra tutto, con la persona solo le sue ricette. */
   function viewRicettario(key) {
-    var person = personByKey(key);
-    if (!person) return viewNotFound();
-    setChrome("Ricette · " + person.name, person.accent, true);
+    var person = key ? personByKey(key) : null;
+    if (key && !person) return viewNotFound();
+    var persone = person ? [person] : DATA.people;
+    var totale = persone.reduce(function (acc, p) {
+      return acc + p.recipes.length;
+    }, 0);
+
+    setChrome(person ? "Ricette · " + person.name : "Ricettario", person ? person.accent : "teal", true);
 
     var lista = h("div", {});
     var input = h("input", {
@@ -469,44 +480,48 @@
     function render(query) {
       lista.innerHTML = "";
       var q = normalize(query);
-      var trovate = person.recipes.filter(function (r) {
-        if (!q) return true;
-        return normalize(r.name + " " + r.ingredients + " " + r.prep).indexOf(q) !== -1;
+      var trovate = 0;
+
+      persone.forEach(function (p) {
+        var ricette = p.recipes.filter(function (r) {
+          if (!q) return true;
+          return normalize(r.name + " " + r.ingredients + " " + r.prep).indexOf(q) !== -1;
+        });
+        if (!ricette.length) return;
+        trovate += ricette.length;
+
+        var categorie = [];
+        ricette.forEach(function (r) {
+          if (categorie.indexOf(r.category) === -1) categorie.push(r.category);
+        });
+
+        categorie.forEach(function (categoria) {
+          var titolo = persone.length > 1 ? p.name + " · " + categoria : categoria;
+          lista.appendChild(h("h2", { class: "section-title", text: titolo }));
+          lista.appendChild(
+            h(
+              "div",
+              { class: "card-list", "data-accent": p.accent },
+              ricette
+                .filter(function (r) {
+                  return r.category === categoria;
+                })
+                .map(function (r) {
+                  return h("a", { class: "recipe-card", href: "#/r/" + p.key + "/" + r.slug }, [
+                    h("div", { class: "info" }, [
+                      h("strong", { text: r.name }),
+                      h("span", { text: r.ingredients || r.when || r.prep }),
+                    ]),
+                    badge(kcalLabel(r), true),
+                    chevron(),
+                  ]);
+                })
+            )
+          );
+        });
       });
 
-      if (!trovate.length) {
-        lista.appendChild(h("p", { class: "empty", text: "Nessuna ricetta trovata." }));
-        return;
-      }
-
-      var categorie = [];
-      trovate.forEach(function (r) {
-        if (categorie.indexOf(r.category) === -1) categorie.push(r.category);
-      });
-
-      categorie.forEach(function (categoria) {
-        lista.appendChild(h("h2", { class: "section-title", text: categoria }));
-        lista.appendChild(
-          h(
-            "div",
-            { class: "card-list" },
-            trovate
-              .filter(function (r) {
-                return r.category === categoria;
-              })
-              .map(function (r) {
-                return h("a", { class: "recipe-card", href: "#/r/" + key + "/" + r.slug }, [
-                  h("div", { class: "info" }, [
-                    h("strong", { text: r.name }),
-                    h("span", { text: r.ingredients || r.when || r.prep }),
-                  ]),
-                  badge(kcalLabel(r), true),
-                  chevron(),
-                ]);
-              })
-          )
-        );
-      });
+      if (!trovate) lista.appendChild(h("p", { class: "empty", text: "Nessuna ricetta trovata." }));
     }
 
     input.addEventListener("input", function () {
@@ -514,11 +529,33 @@
     });
     render("");
 
+    var filtri = [{ key: "", name: "Tutte" }].concat(
+      DATA.people.map(function (p) {
+        return { key: p.key, name: p.name };
+      })
+    );
+
     return h("div", {}, [
       h("div", { class: "hero", style: "padding-bottom:14px" }, [
-        h("h1", { text: "Ricette" }),
-        h("p", { text: person.recipes.length + " piatti di " + person.name }),
+        h("h1", { text: "Ricettario" }),
+        h("p", { text: totale + " ricette" + (person ? " di " + person.name : " di Giovanni e Rosalia") }),
       ]),
+      h(
+        "div",
+        { class: "tabs", role: "tablist" },
+        filtri.map(function (f) {
+          return h("button", {
+            class: "tab",
+            role: "tab",
+            type: "button",
+            "aria-selected": String(f.key === (key || "")),
+            text: f.name,
+            onclick: function () {
+              go("#/ricettario" + (f.key ? "/" + f.key : ""));
+            },
+          });
+        })
+      ),
       h("label", { class: "search" }, [searchIcon(), input]),
       lista,
     ]);
@@ -567,9 +604,12 @@
     return h("div", {}, nodes);
   }
 
-  function viewSpesa(groupIndex) {
+  function viewSpesa(groupIndex, separate) {
     setChrome("Lista della spesa", "teal", true);
-    var gruppi = DATA.shopping.groups;
+    var unite = DATA.shopping.merged || [];
+    // di default le liste unite (Giovanni + Rosalia settimana per settimana)
+    var separato = separate || !unite.length;
+    var gruppi = separato ? DATA.shopping.groups : unite;
     if (!gruppi.length) return h("p", { class: "empty", text: "Nessuna lista della spesa nel file." });
 
     var indice = Math.min(groupIndex || 0, gruppi.length - 1);
@@ -608,7 +648,11 @@
     var nodes = [
       h("div", { class: "hero", style: "padding-bottom:12px" }, [
         h("h1", { text: "Lista della spesa" }),
-        h("p", { text: DATA.shopping.subtitle || "" }),
+        h("p", {
+          text: separato
+            ? "Liste separate, una per persona"
+            : "Giovanni e Rosalia insieme, prodotti uguali sommati",
+        }),
       ]),
     ];
 
@@ -618,7 +662,9 @@
           "div",
           { class: "tabs", role: "tablist" },
           gruppi.map(function (g, i) {
-            var nome = (g.person ? g.person.charAt(0).toUpperCase() + g.person.slice(1) : g.name) + " · " + g.label;
+            var nome = separato
+              ? (g.person ? g.person.charAt(0).toUpperCase() + g.person.slice(1) : g.name) + " · " + g.label
+              : g.name;
             return h("button", {
               class: "tab",
               role: "tab",
@@ -626,10 +672,20 @@
               "aria-selected": String(i === indice),
               text: nome,
               onclick: function () {
-                go("#/spesa/" + i);
+                go("#/spesa/" + (separato ? "sep/" : "") + i);
               },
             });
           })
+        )
+      );
+    }
+
+    if (gruppo.sources && gruppo.sources.length) {
+      nodes.push(
+        h(
+          "p",
+          { class: "sources" },
+          [document.createTextNode("Unisce: " + gruppo.sources.join(" + "))]
         )
       );
     }
@@ -645,7 +701,18 @@
       },
     });
 
-    nodes.push(h("div", { class: "shop-toolbar" }, [contatore, reset]));
+    var cambia = unite.length
+      ? h("button", {
+          class: "link-btn",
+          type: "button",
+          text: separato ? "Unisci le liste" : "Vedi separate",
+          onclick: function () {
+            go("#/spesa/" + (separato ? "" : "sep/") + "0");
+          },
+        })
+      : null;
+
+    nodes.push(h("div", { class: "shop-toolbar" }, [contatore, cambia, reset]));
 
     var contenitore = h("div", {});
     nodes.push(contenitore);
@@ -661,9 +728,17 @@
             { class: "shop-items" },
             categoria.items.map(function (item) {
               var box = h("input", { type: "checkbox", checked: spuntati[item.id] ? "checked" : null });
+              var dettaglio = (item.parts || [])
+                .map(function (p) {
+                  return p.person + " " + p.qty;
+                })
+                .join(" · ");
               var riga = h("label", { class: "shop-item" + (spuntati[item.id] ? " done" : "") }, [
                 box,
-                h("span", { class: "name", text: item.name }),
+                h("span", { class: "name" }, [
+                  document.createTextNode(item.name),
+                  dettaglio ? h("small", { text: dettaglio }) : null,
+                ]),
                 h("span", { class: "qty", text: item.qty }),
               ]);
               box.addEventListener("change", function () {
@@ -716,7 +791,10 @@
         vista = viewRicettario(parts[1]);
         break;
       case "spesa":
-        vista = viewSpesa(parseInt(parts[1], 10) || 0);
+        vista =
+          parts[1] === "sep"
+            ? viewSpesa(parseInt(parts[2], 10) || 0, true)
+            : viewSpesa(parseInt(parts[1], 10) || 0, false);
         break;
       case "prova":
         vista = viewToTry();

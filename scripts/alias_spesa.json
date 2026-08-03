@@ -1,0 +1,7 @@
+{
+  "_commento": "Prodotti che nei due fogli hanno nomi diversi ma vanno comprati insieme. A sinistra il nome da mostrare nella lista unita, a destra le varianti da unire. Le differenze di ordine delle parole, i qualificatori finali (crudo, cotti...), le parentesi e le percentuali sono gia' gestiti dal codice: qui servono solo i sinonimi veri.",
+
+  "Olio extravergine d'oliva": ["Olio EVO"],
+  "Fesa di tacchino": ["Petto di tacchino"],
+  "Grana": ["Grana a scaglie", "Grana grattugiato"]
+}

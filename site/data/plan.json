@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03 22:17 UTC",
+ "generated_at": "2026-08-03 22:29 UTC",
  "source": "piano_alimentare.xlsx",
  "people": [
   {
@@ -5269,6 +5269,1942 @@
      }
     ]
    }
+  ],
+  "merged": [
+   {
+    "name": "Settimana 1",
+    "label": "Settimana 1",
+    "slug": "unita-settimana-1",
+    "person": "",
+    "sources": [
+     "Giovanni · 1 settimana (7 giorni)",
+     "Rosalia · Settimana 1 (7 giorni)"
+    ],
+    "categories": [
+     {
+      "name": "Frutta e verdura",
+      "items": [
+       {
+        "name": "Anguria",
+        "qty": "450 g",
+        "id": "settimana-1-anguria",
+        "parts": []
+       },
+       {
+        "name": "Avocado",
+        "qty": "150 g",
+        "id": "settimana-1-avocado",
+        "parts": []
+       },
+       {
+        "name": "Banana",
+        "qty": "420 g",
+        "id": "settimana-1-banana",
+        "parts": []
+       },
+       {
+        "name": "Basilico",
+        "qty": "15 g",
+        "id": "settimana-1-basilico",
+        "parts": []
+       },
+       {
+        "name": "Carote",
+        "qty": "385 g",
+        "id": "settimana-1-carote",
+        "parts": []
+       },
+       {
+        "name": "Cetrioli",
+        "qty": "3 pz (≈600 g)",
+        "id": "settimana-1-cetrioli",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "2 pz (≈400 g)"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "1 pz (≈200 g)"
+         }
+        ]
+       },
+       {
+        "name": "Cipolla",
+        "qty": "255 g",
+        "id": "settimana-1-cipolla",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "80 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "175 g"
+         }
+        ]
+       },
+       {
+        "name": "Frutta estiva (melone/pesche/uva)",
+        "qty": "900 g",
+        "id": "settimana-1-estiva-frutta",
+        "parts": []
+       },
+       {
+        "name": "Frutta fresca",
+        "qty": "150 g",
+        "id": "settimana-1-fresca-frutta",
+        "parts": []
+       },
+       {
+        "name": "Frutti di bosco",
+        "qty": "240 g",
+        "id": "settimana-1-bosco-frutti",
+        "parts": []
+       },
+       {
+        "name": "Funghi champignon",
+        "qty": "250 g",
+        "id": "settimana-1-champignon-funghi",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "150 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "100 g"
+         }
+        ]
+       },
+       {
+        "name": "Insalata",
+        "qty": "3 porzioni",
+        "id": "settimana-1-insalata",
+        "parts": []
+       },
+       {
+        "name": "Lattuga",
+        "qty": "2 porzioni",
+        "id": "settimana-1-lattuga",
+        "parts": []
+       },
+       {
+        "name": "Lime",
+        "qty": "1 pz",
+        "id": "settimana-1-lime",
+        "parts": []
+       },
+       {
+        "name": "Limoni",
+        "qty": "4 pz",
+        "id": "settimana-1-limoni",
+        "parts": []
+       },
+       {
+        "name": "Pesca",
+        "qty": "520 g",
+        "id": "settimana-1-pesca",
+        "parts": []
+       },
+       {
+        "name": "Pomodori",
+        "qty": "880 g",
+        "id": "settimana-1-pomodori",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "500 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "380 g"
+         }
+        ]
+       },
+       {
+        "name": "Pomodorini",
+        "qty": "480 g",
+        "id": "settimana-1-pomodorini",
+        "parts": []
+       },
+       {
+        "name": "Spinaci",
+        "qty": "60 g",
+        "id": "settimana-1-spinaci",
+        "parts": []
+       },
+       {
+        "name": "Valeriana (songino)",
+        "qty": "8 porzioni",
+        "id": "settimana-1-valeriana",
+        "parts": []
+       },
+       {
+        "name": "Verdura di contorno",
+        "qty": "150 g",
+        "id": "settimana-1-contorno-verdura",
+        "parts": []
+       },
+       {
+        "name": "Zucchine",
+        "qty": "5 pz",
+        "id": "settimana-1-zucchine",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Carne e salumi",
+      "items": [
+       {
+        "name": "Bresaola",
+        "qty": "140 g",
+        "id": "settimana-1-bresaola",
+        "parts": []
+       },
+       {
+        "name": "Fesa di tacchino",
+        "qty": "695 g",
+        "id": "settimana-1-fesa-tacchino",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "330 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "365 g"
+         }
+        ]
+       },
+       {
+        "name": "Macinato di pollo",
+        "qty": "190 g",
+        "id": "settimana-1-macinato-pollo",
+        "parts": []
+       },
+       {
+        "name": "Macinato magro di manzo",
+        "qty": "1.16 kg",
+        "id": "settimana-1-macinato-magro-manzo",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "515 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "645 g"
+         }
+        ]
+       },
+       {
+        "name": "Petto di pollo",
+        "qty": "1.19 kg",
+        "id": "settimana-1-petto-pollo",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "510 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "680 g"
+         }
+        ]
+       },
+       {
+        "name": "Prosciutto crudo magro",
+        "qty": "45 g",
+        "id": "settimana-1-crudo-magro-prosciutto",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Pesce",
+      "items": [
+       {
+        "name": "Gamberi",
+        "qty": "90 g",
+        "id": "settimana-1-gamberi",
+        "parts": []
+       },
+       {
+        "name": "Tonno al naturale",
+        "qty": "60 g",
+        "id": "settimana-1-naturale-tonno",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Latticini e uova",
+      "items": [
+       {
+        "name": "Albume",
+        "qty": "100 g",
+        "id": "settimana-1-albume",
+        "parts": []
+       },
+       {
+        "name": "Fiocchi di latte",
+        "qty": "1.68 kg",
+        "id": "settimana-1-fiocchi-latte",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "320 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "1.36 kg"
+         }
+        ]
+       },
+       {
+        "name": "Grana",
+        "qty": "211 g",
+        "id": "settimana-1-grana",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "155 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "56 g"
+         }
+        ]
+       },
+       {
+        "name": "Latte",
+        "qty": "80 ml",
+        "id": "settimana-1-latte",
+        "parts": []
+       },
+       {
+        "name": "Mozzarella light",
+        "qty": "390 g",
+        "id": "settimana-1-light-mozzarella",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "85 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "305 g"
+         }
+        ]
+       },
+       {
+        "name": "Parmigiano",
+        "qty": "43 g",
+        "id": "settimana-1-parmigiano",
+        "parts": []
+       },
+       {
+        "name": "Philadelphia light",
+        "qty": "60 g",
+        "id": "settimana-1-light-philadelphia",
+        "parts": []
+       },
+       {
+        "name": "Ricotta light",
+        "qty": "90 g",
+        "id": "settimana-1-light-ricotta",
+        "parts": []
+       },
+       {
+        "name": "Sottilette light",
+        "qty": "1 pz",
+        "id": "settimana-1-light-sottilette",
+        "parts": []
+       },
+       {
+        "name": "Uova",
+        "qty": "22 pz",
+        "id": "settimana-1-uova",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "5 pz (≈273 g)"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "17 pz"
+         }
+        ]
+       },
+       {
+        "name": "Yogurt greco",
+        "qty": "1.35 kg",
+        "id": "settimana-1-greco-yogurt",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "1.19 kg"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "160 g"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Pane, cereali e dispensa",
+      "items": [
+       {
+        "name": "Fagioli cannellini",
+        "qty": "170 g",
+        "id": "settimana-1-cannellini-fagioli",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "90 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "80 g"
+         }
+        ]
+       },
+       {
+        "name": "Fette biscottate integrali (≈5)",
+        "qty": "80 g",
+        "id": "settimana-1-biscottate-fette-integrali",
+        "parts": []
+       },
+       {
+        "name": "Gnocchi di patate",
+        "qty": "370 g",
+        "id": "settimana-1-gnocchi-patate",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "220 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "150 g"
+         }
+        ]
+       },
+       {
+        "name": "Lenticchie cotte",
+        "qty": "150 g",
+        "id": "settimana-1-lenticchie",
+        "parts": []
+       },
+       {
+        "name": "Muesli fatto in casa",
+        "qty": "95 g",
+        "id": "settimana-1-casa-fatto-muesli",
+        "parts": []
+       },
+       {
+        "name": "Pane integrale",
+        "qty": "845 g",
+        "id": "settimana-1-integrale-pane",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "625 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "220 g"
+         }
+        ]
+       },
+       {
+        "name": "Pangrattato",
+        "qty": "25 g",
+        "id": "settimana-1-pangrattato",
+        "parts": []
+       },
+       {
+        "name": "Pasta secca",
+        "qty": "235 g",
+        "id": "settimana-1-pasta-secca",
+        "parts": []
+       },
+       {
+        "name": "Piadina integrale",
+        "qty": "80 g",
+        "id": "settimana-1-integrale-piadina",
+        "parts": []
+       },
+       {
+        "name": "Riso basmati",
+        "qty": "225 g",
+        "id": "settimana-1-basmati-riso",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Dispensa e condimenti",
+      "items": [
+       {
+        "name": "Amido di mais",
+        "qty": "7 g",
+        "id": "settimana-1-amido-mais",
+        "parts": []
+       },
+       {
+        "name": "Carta di riso",
+        "qty": "6 fogli",
+        "id": "settimana-1-carta-riso",
+        "parts": []
+       },
+       {
+        "name": "Ceci",
+        "qty": "145 g",
+        "id": "settimana-1-ceci",
+        "parts": []
+       },
+       {
+        "name": "Fagioli neri",
+        "qty": "50 g",
+        "id": "settimana-1-fagioli-neri",
+        "parts": []
+       },
+       {
+        "name": "Farina",
+        "qty": "29 g",
+        "id": "settimana-1-farina",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "20 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "9 g"
+         }
+        ]
+       },
+       {
+        "name": "Farina d'avena",
+        "qty": "30 g",
+        "id": "settimana-1-avena-farina",
+        "parts": []
+       },
+       {
+        "name": "Gocce di cioccolato",
+        "qty": "5 g",
+        "id": "settimana-1-cioccolato-gocce",
+        "parts": []
+       },
+       {
+        "name": "Latte di cocco light",
+        "qty": "60 g",
+        "id": "settimana-1-cocco-latte-light",
+        "parts": []
+       },
+       {
+        "name": "Legumi in scatola",
+        "qty": "150 g",
+        "id": "settimana-1-legumi-scatola",
+        "parts": []
+       },
+       {
+        "name": "Mais in scatola",
+        "qty": "80 g",
+        "id": "settimana-1-mais-scatola",
+        "parts": []
+       },
+       {
+        "name": "Marmellata light",
+        "qty": "80 g",
+        "id": "settimana-1-light-marmellata",
+        "parts": []
+       },
+       {
+        "name": "Miele",
+        "qty": "8 g",
+        "id": "settimana-1-miele",
+        "parts": []
+       },
+       {
+        "name": "Noci sgusciate",
+        "qty": "57 g",
+        "id": "settimana-1-noci-sgusciate",
+        "parts": []
+       },
+       {
+        "name": "Olio extravergine d'oliva",
+        "qty": "182 g",
+        "id": "settimana-1-extravergine-olio-oliva",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "110 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "72 g"
+         }
+        ]
+       },
+       {
+        "name": "Passata di pomodoro",
+        "qty": "1.12 kg",
+        "id": "settimana-1-passata-pomodoro",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "780 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "340 g"
+         }
+        ]
+       },
+       {
+        "name": "Senape",
+        "qty": "49 g",
+        "id": "settimana-1-senape",
+        "parts": []
+       },
+       {
+        "name": "Tacos di mais",
+        "qty": "50 g",
+        "id": "settimana-1-mais-tacos",
+        "parts": []
+       },
+       {
+        "name": "Uovo sbattuto",
+        "qty": "20 g",
+        "id": "settimana-1-sbattuto-uovo",
+        "parts": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Settimana 2",
+    "label": "Settimana 2",
+    "slug": "unita-settimana-2",
+    "person": "",
+    "sources": [
+     "Giovanni · 1 settimana (7 giorni)",
+     "Rosalia · Settimana 2 (7 giorni)"
+    ],
+    "categories": [
+     {
+      "name": "Frutta e verdura",
+      "items": [
+       {
+        "name": "Anguria",
+        "qty": "450 g",
+        "id": "settimana-2-anguria",
+        "parts": []
+       },
+       {
+        "name": "Avocado",
+        "qty": "145 g",
+        "id": "settimana-2-avocado",
+        "parts": []
+       },
+       {
+        "name": "Banana",
+        "qty": "420 g",
+        "id": "settimana-2-banana",
+        "parts": []
+       },
+       {
+        "name": "Basilico",
+        "qty": "20 g",
+        "id": "settimana-2-basilico",
+        "parts": []
+       },
+       {
+        "name": "Carote",
+        "qty": "350 g",
+        "id": "settimana-2-carote",
+        "parts": []
+       },
+       {
+        "name": "Cetrioli",
+        "qty": "4 pz (≈700 g)",
+        "id": "settimana-2-cetrioli",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "2 pz (≈400 g)"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "2 pz (≈300 g)"
+         }
+        ]
+       },
+       {
+        "name": "Cipolla",
+        "qty": "160 g",
+        "id": "settimana-2-cipolla",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "80 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "80 g"
+         }
+        ]
+       },
+       {
+        "name": "Frutta estiva (melone/pesche/uva)",
+        "qty": "1.2 kg",
+        "id": "settimana-2-estiva-frutta",
+        "parts": []
+       },
+       {
+        "name": "Frutta fresca",
+        "qty": "150 g",
+        "id": "settimana-2-fresca-frutta",
+        "parts": []
+       },
+       {
+        "name": "Frutti di bosco",
+        "qty": "140 g",
+        "id": "settimana-2-bosco-frutti",
+        "parts": []
+       },
+       {
+        "name": "Funghi champignon",
+        "qty": "150 g",
+        "id": "settimana-2-champignon-funghi",
+        "parts": []
+       },
+       {
+        "name": "Insalata",
+        "qty": "7 porzioni",
+        "id": "settimana-2-insalata",
+        "parts": []
+       },
+       {
+        "name": "Lime",
+        "qty": "2 pz",
+        "id": "settimana-2-lime",
+        "parts": []
+       },
+       {
+        "name": "Limoni",
+        "qty": "5 pz",
+        "id": "settimana-2-limoni",
+        "parts": []
+       },
+       {
+        "name": "Pesca",
+        "qty": "520 g",
+        "id": "settimana-2-pesca",
+        "parts": []
+       },
+       {
+        "name": "Pomodori",
+        "qty": "1.04 kg",
+        "id": "settimana-2-pomodori",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "500 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "540 g"
+         }
+        ]
+       },
+       {
+        "name": "Pomodorini",
+        "qty": "640 g",
+        "id": "settimana-2-pomodorini",
+        "parts": []
+       },
+       {
+        "name": "Rucola",
+        "qty": "60 g",
+        "id": "settimana-2-rucola",
+        "parts": []
+       },
+       {
+        "name": "Spinaci",
+        "qty": "60 g",
+        "id": "settimana-2-spinaci",
+        "parts": []
+       },
+       {
+        "name": "Valeriana (songino)",
+        "qty": "8 porzioni",
+        "id": "settimana-2-valeriana",
+        "parts": []
+       },
+       {
+        "name": "Zucchine",
+        "qty": "6 pz",
+        "id": "settimana-2-zucchine",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Carne e salumi",
+      "items": [
+       {
+        "name": "Bresaola",
+        "qty": "140 g",
+        "id": "settimana-2-bresaola",
+        "parts": []
+       },
+       {
+        "name": "Fesa di tacchino",
+        "qty": "645 g",
+        "id": "settimana-2-fesa-tacchino",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "330 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "315 g"
+         }
+        ]
+       },
+       {
+        "name": "Fettine di manzo magro",
+        "qty": "130 g",
+        "id": "settimana-2-fettine-magro-manzo",
+        "parts": []
+       },
+       {
+        "name": "Macinato di manzo magro (crudo)",
+        "qty": "515 g",
+        "id": "settimana-2-macinato-magro-manzo",
+        "parts": []
+       },
+       {
+        "name": "Petto di pollo",
+        "qty": "1.45 kg",
+        "id": "settimana-2-petto-pollo",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "510 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "940 g"
+         }
+        ]
+       },
+       {
+        "name": "Prosciutto crudo magro",
+        "qty": "45 g",
+        "id": "settimana-2-crudo-magro-prosciutto",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Pesce",
+      "items": [
+       {
+        "name": "Gamberi",
+        "qty": "620 g",
+        "id": "settimana-2-gamberi",
+        "parts": []
+       },
+       {
+        "name": "Merluzzo",
+        "qty": "180 g",
+        "id": "settimana-2-merluzzo",
+        "parts": []
+       },
+       {
+        "name": "Tonno al naturale",
+        "qty": "175 g",
+        "id": "settimana-2-naturale-tonno",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Latticini e uova",
+      "items": [
+       {
+        "name": "Albume",
+        "qty": "100 g",
+        "id": "settimana-2-albume",
+        "parts": []
+       },
+       {
+        "name": "Fiocchi di latte",
+        "qty": "1.36 kg",
+        "id": "settimana-2-fiocchi-latte",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "320 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "1.04 kg"
+         }
+        ]
+       },
+       {
+        "name": "Grana",
+        "qty": "223 g",
+        "id": "settimana-2-grana",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "155 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "68 g"
+         }
+        ]
+       },
+       {
+        "name": "Mozzarella light",
+        "qty": "345 g",
+        "id": "settimana-2-light-mozzarella",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "85 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "260 g"
+         }
+        ]
+       },
+       {
+        "name": "Philadelphia light",
+        "qty": "115 g",
+        "id": "settimana-2-light-philadelphia",
+        "parts": []
+       },
+       {
+        "name": "Ricotta light",
+        "qty": "90 g",
+        "id": "settimana-2-light-ricotta",
+        "parts": []
+       },
+       {
+        "name": "Sottilette light",
+        "qty": "1 pz",
+        "id": "settimana-2-light-sottilette",
+        "parts": []
+       },
+       {
+        "name": "Uova",
+        "qty": "19 pz",
+        "id": "settimana-2-uova",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "5 pz (≈273 g)"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "14 pz"
+         }
+        ]
+       },
+       {
+        "name": "Yogurt greco",
+        "qty": "1.21 kg",
+        "id": "settimana-2-greco-yogurt",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "1.19 kg"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "18 g"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Pane, cereali e dispensa",
+      "items": [
+       {
+        "name": "Fagioli cannellini",
+        "qty": "230 g",
+        "id": "settimana-2-cannellini-fagioli",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "90 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "140 g"
+         }
+        ]
+       },
+       {
+        "name": "Fette biscottate integrali (≈5)",
+        "qty": "80 g",
+        "id": "settimana-2-biscottate-fette-integrali",
+        "parts": []
+       },
+       {
+        "name": "Gnocchi di patate",
+        "qty": "220 g",
+        "id": "settimana-2-gnocchi-patate",
+        "parts": []
+       },
+       {
+        "name": "Lenticchie cotte",
+        "qty": "150 g",
+        "id": "settimana-2-lenticchie",
+        "parts": []
+       },
+       {
+        "name": "Muesli fatto in casa",
+        "qty": "95 g",
+        "id": "settimana-2-casa-fatto-muesli",
+        "parts": []
+       },
+       {
+        "name": "Pane integrale",
+        "qty": "885 g",
+        "id": "settimana-2-integrale-pane",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "625 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "260 g"
+         }
+        ]
+       },
+       {
+        "name": "Pangrattato",
+        "qty": "45 g",
+        "id": "settimana-2-pangrattato",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "25 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "20 g"
+         }
+        ]
+       },
+       {
+        "name": "Pasta secca",
+        "qty": "235 g",
+        "id": "settimana-2-pasta-secca",
+        "parts": []
+       },
+       {
+        "name": "Piadina integrale",
+        "qty": "150 g",
+        "id": "settimana-2-integrale-piadina",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "80 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "70 g"
+         }
+        ]
+       },
+       {
+        "name": "Riso basmati",
+        "qty": "225 g",
+        "id": "settimana-2-basmati-riso",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Dispensa e condimenti",
+      "items": [
+       {
+        "name": "Amido di mais",
+        "qty": "7 g",
+        "id": "settimana-2-amido-mais",
+        "parts": []
+       },
+       {
+        "name": "Burro di arachidi",
+        "qty": "16 g",
+        "id": "settimana-2-arachidi-burro",
+        "parts": []
+       },
+       {
+        "name": "Carta di riso",
+        "qty": "6 fogli",
+        "id": "settimana-2-carta-riso",
+        "parts": []
+       },
+       {
+        "name": "Ceci",
+        "qty": "75 g",
+        "id": "settimana-2-ceci",
+        "parts": []
+       },
+       {
+        "name": "Fagioli neri",
+        "qty": "50 g",
+        "id": "settimana-2-fagioli-neri",
+        "parts": []
+       },
+       {
+        "name": "Farina",
+        "qty": "58 g",
+        "id": "settimana-2-farina",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "20 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "38 g"
+         }
+        ]
+       },
+       {
+        "name": "Farina d'avena",
+        "qty": "30 g",
+        "id": "settimana-2-avena-farina",
+        "parts": []
+       },
+       {
+        "name": "Gocce di cioccolato",
+        "qty": "5 g",
+        "id": "settimana-2-cioccolato-gocce",
+        "parts": []
+       },
+       {
+        "name": "Latte di cocco light",
+        "qty": "60 g",
+        "id": "settimana-2-cocco-latte-light",
+        "parts": []
+       },
+       {
+        "name": "Mais in scatola",
+        "qty": "75 g",
+        "id": "settimana-2-mais-scatola",
+        "parts": []
+       },
+       {
+        "name": "Marmellata light",
+        "qty": "80 g",
+        "id": "settimana-2-light-marmellata",
+        "parts": []
+       },
+       {
+        "name": "Miele",
+        "qty": "17 g",
+        "id": "settimana-2-miele",
+        "parts": []
+       },
+       {
+        "name": "Noci sgusciate",
+        "qty": "57 g",
+        "id": "settimana-2-noci-sgusciate",
+        "parts": []
+       },
+       {
+        "name": "Olio extravergine d'oliva",
+        "qty": "222 g",
+        "id": "settimana-2-extravergine-olio-oliva",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "110 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "112 g"
+         }
+        ]
+       },
+       {
+        "name": "Passata di pomodoro",
+        "qty": "880 g",
+        "id": "settimana-2-passata-pomodoro",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "780 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "100 g"
+         }
+        ]
+       },
+       {
+        "name": "Pasta fillo",
+        "qty": "45 g",
+        "id": "settimana-2-fillo-pasta",
+        "parts": []
+       },
+       {
+        "name": "Salsa di pomodoro piccante",
+        "qty": "30 g",
+        "id": "settimana-2-piccante-pomodoro-salsa",
+        "parts": []
+       },
+       {
+        "name": "Salsa di soia",
+        "qty": "17 ml",
+        "id": "settimana-2-salsa-soia",
+        "parts": []
+       },
+       {
+        "name": "Salsa teriyaki",
+        "qty": "20 g",
+        "id": "settimana-2-salsa-teriyaki",
+        "parts": []
+       },
+       {
+        "name": "Senape",
+        "qty": "35 g",
+        "id": "settimana-2-senape",
+        "parts": []
+       },
+       {
+        "name": "Tacos di mais",
+        "qty": "50 g",
+        "id": "settimana-2-mais-tacos",
+        "parts": []
+       },
+       {
+        "name": "Uovo sbattuto",
+        "qty": "20 g",
+        "id": "settimana-2-sbattuto-uovo",
+        "parts": []
+       },
+       {
+        "name": "Zafferano",
+        "qty": "1 bustine",
+        "id": "settimana-2-zafferano",
+        "parts": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Settimana 3",
+    "label": "Settimana 3",
+    "slug": "unita-settimana-3",
+    "person": "",
+    "sources": [
+     "Giovanni · 1 settimana (7 giorni)",
+     "Rosalia · Settimana 3 (7 giorni)"
+    ],
+    "categories": [
+     {
+      "name": "Frutta e verdura",
+      "items": [
+       {
+        "name": "Anguria",
+        "qty": "450 g",
+        "id": "settimana-3-anguria",
+        "parts": []
+       },
+       {
+        "name": "Avocado",
+        "qty": "70 g",
+        "id": "settimana-3-avocado",
+        "parts": []
+       },
+       {
+        "name": "Banana",
+        "qty": "420 g",
+        "id": "settimana-3-banana",
+        "parts": []
+       },
+       {
+        "name": "Basilico",
+        "qty": "15 g",
+        "id": "settimana-3-basilico",
+        "parts": []
+       },
+       {
+        "name": "Carote",
+        "qty": "480 g",
+        "id": "settimana-3-carote",
+        "parts": []
+       },
+       {
+        "name": "Cavolo viola",
+        "qty": "60 g",
+        "id": "settimana-3-cavolo-viola",
+        "parts": []
+       },
+       {
+        "name": "Cetrioli",
+        "qty": "3 pz (≈600 g)",
+        "id": "settimana-3-cetrioli",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "2 pz (≈400 g)"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "1 pz (≈200 g)"
+         }
+        ]
+       },
+       {
+        "name": "Cipolla",
+        "qty": "150 g",
+        "id": "settimana-3-cipolla",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "80 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "70 g"
+         }
+        ]
+       },
+       {
+        "name": "Frutta estiva (melone/pesche/uva)",
+        "qty": "900 g",
+        "id": "settimana-3-estiva-frutta",
+        "parts": []
+       },
+       {
+        "name": "Frutta fresca",
+        "qty": "150 g",
+        "id": "settimana-3-fresca-frutta",
+        "parts": []
+       },
+       {
+        "name": "Frutti di bosco",
+        "qty": "240 g",
+        "id": "settimana-3-bosco-frutti",
+        "parts": []
+       },
+       {
+        "name": "Funghi champignon",
+        "qty": "230 g",
+        "id": "settimana-3-champignon-funghi",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "150 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "80 g"
+         }
+        ]
+       },
+       {
+        "name": "Insalata",
+        "qty": "6 porzioni",
+        "id": "settimana-3-insalata",
+        "parts": []
+       },
+       {
+        "name": "Lattuga",
+        "qty": "1 porzioni",
+        "id": "settimana-3-lattuga",
+        "parts": []
+       },
+       {
+        "name": "Lime",
+        "qty": "1 pz",
+        "id": "settimana-3-lime",
+        "parts": []
+       },
+       {
+        "name": "Limoni",
+        "qty": "3 pz",
+        "id": "settimana-3-limoni",
+        "parts": []
+       },
+       {
+        "name": "Pesca",
+        "qty": "520 g",
+        "id": "settimana-3-pesca",
+        "parts": []
+       },
+       {
+        "name": "Pomodori",
+        "qty": "980 g",
+        "id": "settimana-3-pomodori",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "500 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "480 g"
+         }
+        ]
+       },
+       {
+        "name": "Pomodorini",
+        "qty": "570 g",
+        "id": "settimana-3-pomodorini",
+        "parts": []
+       },
+       {
+        "name": "Spinaci",
+        "qty": "160 g",
+        "id": "settimana-3-spinaci",
+        "parts": []
+       },
+       {
+        "name": "Valeriana (songino)",
+        "qty": "8 porzioni",
+        "id": "settimana-3-valeriana",
+        "parts": []
+       },
+       {
+        "name": "Verdura di contorno",
+        "qty": "150 g",
+        "id": "settimana-3-contorno-verdura",
+        "parts": []
+       },
+       {
+        "name": "Zucchine",
+        "qty": "7 pz",
+        "id": "settimana-3-zucchine",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Carne e salumi",
+      "items": [
+       {
+        "name": "Bresaola",
+        "qty": "140 g",
+        "id": "settimana-3-bresaola",
+        "parts": []
+       },
+       {
+        "name": "Fesa di tacchino",
+        "qty": "730 g",
+        "id": "settimana-3-fesa-tacchino",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "330 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "400 g"
+         }
+        ]
+       },
+       {
+        "name": "Macinato magro di manzo",
+        "qty": "1.04 kg",
+        "id": "settimana-3-macinato-magro-manzo",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "515 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "530 g"
+         }
+        ]
+       },
+       {
+        "name": "Petto di pollo",
+        "qty": "845 g",
+        "id": "settimana-3-petto-pollo",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "510 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "335 g"
+         }
+        ]
+       },
+       {
+        "name": "Prosciutto crudo magro",
+        "qty": "45 g",
+        "id": "settimana-3-crudo-magro-prosciutto",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Pesce",
+      "items": [
+       {
+        "name": "Gamberi",
+        "qty": "220 g",
+        "id": "settimana-3-gamberi",
+        "parts": []
+       },
+       {
+        "name": "Merluzzo",
+        "qty": "220 g",
+        "id": "settimana-3-merluzzo",
+        "parts": []
+       },
+       {
+        "name": "Salmone affumicato",
+        "qty": "145 g",
+        "id": "settimana-3-affumicato-salmone",
+        "parts": []
+       },
+       {
+        "name": "Tonno al naturale",
+        "qty": "115 g",
+        "id": "settimana-3-naturale-tonno",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Latticini e uova",
+      "items": [
+       {
+        "name": "Albume",
+        "qty": "100 g",
+        "id": "settimana-3-albume",
+        "parts": []
+       },
+       {
+        "name": "Fiocchi di latte",
+        "qty": "1.68 kg",
+        "id": "settimana-3-fiocchi-latte",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "320 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "1.36 kg"
+         }
+        ]
+       },
+       {
+        "name": "Grana",
+        "qty": "189 g",
+        "id": "settimana-3-grana",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "155 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "34 g"
+         }
+        ]
+       },
+       {
+        "name": "Latte",
+        "qty": "80 ml",
+        "id": "settimana-3-latte",
+        "parts": []
+       },
+       {
+        "name": "Mozzarella light",
+        "qty": "355 g",
+        "id": "settimana-3-light-mozzarella",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "85 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "270 g"
+         }
+        ]
+       },
+       {
+        "name": "Parmigiano",
+        "qty": "80 g",
+        "id": "settimana-3-parmigiano",
+        "parts": []
+       },
+       {
+        "name": "Philadelphia light",
+        "qty": "135 g",
+        "id": "settimana-3-light-philadelphia",
+        "parts": []
+       },
+       {
+        "name": "Ricotta light",
+        "qty": "90 g",
+        "id": "settimana-3-light-ricotta",
+        "parts": []
+       },
+       {
+        "name": "Sottilette light",
+        "qty": "2 pz",
+        "id": "settimana-3-light-sottilette",
+        "parts": []
+       },
+       {
+        "name": "Uova",
+        "qty": "21 pz",
+        "id": "settimana-3-uova",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "5 pz (≈273 g)"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "16 pz"
+         }
+        ]
+       },
+       {
+        "name": "Yogurt bianco",
+        "qty": "50 g",
+        "id": "settimana-3-bianco-yogurt",
+        "parts": []
+       },
+       {
+        "name": "Yogurt greco",
+        "qty": "1.21 kg",
+        "id": "settimana-3-greco-yogurt",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "1.19 kg"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "20 g"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Pane, cereali e dispensa",
+      "items": [
+       {
+        "name": "Fagioli cannellini",
+        "qty": "170 g",
+        "id": "settimana-3-cannellini-fagioli",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "90 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "80 g"
+         }
+        ]
+       },
+       {
+        "name": "Fette biscottate integrali (≈5)",
+        "qty": "80 g",
+        "id": "settimana-3-biscottate-fette-integrali",
+        "parts": []
+       },
+       {
+        "name": "Gnocchi di patate",
+        "qty": "220 g",
+        "id": "settimana-3-gnocchi-patate",
+        "parts": []
+       },
+       {
+        "name": "Lenticchie cotte",
+        "qty": "150 g",
+        "id": "settimana-3-lenticchie",
+        "parts": []
+       },
+       {
+        "name": "Muesli fatto in casa",
+        "qty": "95 g",
+        "id": "settimana-3-casa-fatto-muesli",
+        "parts": []
+       },
+       {
+        "name": "Pane integrale",
+        "qty": "825 g",
+        "id": "settimana-3-integrale-pane",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "625 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "200 g"
+         }
+        ]
+       },
+       {
+        "name": "Pangrattato",
+        "qty": "38 g",
+        "id": "settimana-3-pangrattato",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "25 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "13 g"
+         }
+        ]
+       },
+       {
+        "name": "Pasta secca",
+        "qty": "235 g",
+        "id": "settimana-3-pasta-secca",
+        "parts": []
+       },
+       {
+        "name": "Piadina integrale",
+        "qty": "150 g",
+        "id": "settimana-3-integrale-piadina",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "80 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "70 g"
+         }
+        ]
+       },
+       {
+        "name": "Riso basmati",
+        "qty": "225 g",
+        "id": "settimana-3-basmati-riso",
+        "parts": []
+       }
+      ]
+     },
+     {
+      "name": "Dispensa e condimenti",
+      "items": [
+       {
+        "name": "Aglio",
+        "qty": "1 g",
+        "id": "settimana-3-aglio",
+        "parts": []
+       },
+       {
+        "name": "Amido di mais",
+        "qty": "7 g",
+        "id": "settimana-3-amido-mais",
+        "parts": []
+       },
+       {
+        "name": "Burro di arachidi",
+        "qty": "25 g",
+        "id": "settimana-3-arachidi-burro",
+        "parts": []
+       },
+       {
+        "name": "Carta di riso",
+        "qty": "4 fogli",
+        "id": "settimana-3-carta-riso",
+        "parts": []
+       },
+       {
+        "name": "Concentrato di pomodoro",
+        "qty": "10 g",
+        "id": "settimana-3-concentrato-pomodoro",
+        "parts": []
+       },
+       {
+        "name": "Fagioli rossi",
+        "qty": "50 g",
+        "id": "settimana-3-fagioli-rossi",
+        "parts": []
+       },
+       {
+        "name": "Farina",
+        "qty": "29 g",
+        "id": "settimana-3-farina",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "20 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "9 g"
+         }
+        ]
+       },
+       {
+        "name": "Farina d'avena",
+        "qty": "30 g",
+        "id": "settimana-3-avena-farina",
+        "parts": []
+       },
+       {
+        "name": "Gocce di cioccolato",
+        "qty": "5 g",
+        "id": "settimana-3-cioccolato-gocce",
+        "parts": []
+       },
+       {
+        "name": "Hummus di ceci",
+        "qty": "60 g",
+        "id": "settimana-3-ceci-hummus",
+        "parts": []
+       },
+       {
+        "name": "Latte di cocco light",
+        "qty": "60 g",
+        "id": "settimana-3-cocco-latte-light",
+        "parts": []
+       },
+       {
+        "name": "Marmellata light",
+        "qty": "80 g",
+        "id": "settimana-3-light-marmellata",
+        "parts": []
+       },
+       {
+        "name": "Miele",
+        "qty": "8 g",
+        "id": "settimana-3-miele",
+        "parts": []
+       },
+       {
+        "name": "Noci sgusciate",
+        "qty": "57 g",
+        "id": "settimana-3-noci-sgusciate",
+        "parts": []
+       },
+       {
+        "name": "Noodles di konjac",
+        "qty": "100 g",
+        "id": "settimana-3-konjac-noodles",
+        "parts": []
+       },
+       {
+        "name": "Olio extravergine d'oliva",
+        "qty": "179 g",
+        "id": "settimana-3-extravergine-olio-oliva",
+        "parts": [
+         {
+          "person": "Giovanni",
+          "qty": "110 g"
+         },
+         {
+          "person": "Rosalia",
+          "qty": "69 g"
+         }
+        ]
+       },
+       {
+        "name": "Passata di pomodoro",
+        "qty": "780 g",
+        "id": "settimana-3-passata-pomodoro",
+        "parts": []
+       },
+       {
+        "name": "Pasta fillo",
+        "qty": "40 g",
+        "id": "settimana-3-fillo-pasta",
+        "parts": []
+       },
+       {
+        "name": "Prezzemolo",
+        "qty": "2 g",
+        "id": "settimana-3-prezzemolo",
+        "parts": []
+       },
+       {
+        "name": "Salmone fresco",
+        "qty": "165 g",
+        "id": "settimana-3-fresco-salmone",
+        "parts": []
+       },
+       {
+        "name": "Salsa di soia",
+        "qty": "18 ml",
+        "id": "settimana-3-salsa-soia",
+        "parts": []
+       },
+       {
+        "name": "Senape",
+        "qty": "40 g",
+        "id": "settimana-3-senape",
+        "parts": []
+       },
+       {
+        "name": "Tacos di mais",
+        "qty": "50 g",
+        "id": "settimana-3-mais-tacos",
+        "parts": []
+       },
+       {
+        "name": "Uovo sbattuto",
+        "qty": "20 g",
+        "id": "settimana-3-sbattuto-uovo",
+        "parts": []
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "warnings": [],
+  "unmerged": [
+   "Anguria",
+   "Banana",
+   "Bresaola",
+   "Fette biscottate integrali (≈5)",
+   "Latte di cocco light",
+   "Lenticchie cotte",
+   "Marmellata light",
+   "Muesli fatto in casa",
+   "Noci sgusciate",
+   "Pasta secca",
+   "Pesca",
+   "Prosciutto crudo magro",
+   "Riso basmati",
+   "Valeriana (songino)"
   ]
  }
 }

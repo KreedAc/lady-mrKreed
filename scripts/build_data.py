@@ -353,6 +353,238 @@ def parse_spesa(sheet) -> dict:
     return {"title": titolo, "subtitle": sottotitolo, "groups": gruppi}
 
 
+# ---------------------------------------------------------------- fusione liste spesa
+
+# parole da ignorare quando si confrontano due nomi di prodotto
+ARTICOLI = {"di", "d", "e", "a", "al", "alla", "allo", "ai", "agli", "alle", "della", "dello",
+            "dei", "degli", "delle", "del", "in", "con", "la", "il", "lo", "i", "gli", "le", "da",
+            "per", "un", "una"}
+# qualificatori che alla fine del nome non cambiano il prodotto da comprare
+QUALIFICATORI = {"crudo", "cruda", "crudi", "crude", "cotto", "cotta", "cotti", "cotte"}
+
+UNITA = {
+    "g": ("g", 1), "gr": ("g", 1), "grammi": ("g", 1), "kg": ("g", 1000),
+    "ml": ("ml", 1), "cl": ("ml", 10), "l": ("ml", 1000),
+    "pz": ("pz", 1), "pezzi": ("pz", 1), "pezzo": ("pz", 1),
+    "porzione": ("porzioni", 1), "porzioni": ("porzioni", 1),
+    "foglio": ("fogli", 1), "fogli": ("fogli", 1),
+    "bustina": ("bustine", 1), "bustine": ("bustine", 1),
+    "spicchio": ("spicchi", 1), "spicchi": ("spicchi", 1),
+    "ciuffo": ("ciuffi", 1), "ciuffi": ("ciuffi", 1),
+}
+
+QUANTITA_RE = re.compile(
+    r"^\s*([\d.,]+)\s*([^\s(]*)\s*(?:\(\s*[≈~]?\s*([\d.,]+)\s*([a-zA-Z]+)\s*\))?", re.I
+)
+
+# ordine dei reparti nella lista unita: come si gira il supermercato
+ORDINE_CATEGORIE = ["frutta", "carne", "pesce", "latticini", "pane", "dispensa"]
+
+
+def posizione_categoria(nome: str) -> tuple:
+    testo = norm(nome)
+    for posto, parola in enumerate(ORDINE_CATEGORIE):
+        if testo.startswith(parola):
+            return (posto, testo)
+    return (len(ORDINE_CATEGORIE), testo)
+
+
+def chiave_prodotto(nome: str) -> str:
+    """Nome ridotto all'osso: senza parentesi, percentuali, articoli e ordine delle parole.
+
+    Cosi' 'Macinato di manzo magro (crudo)' e 'Macinato magro di manzo' finiscono
+    sulla stessa chiave senza bisogno di un alias scritto a mano.
+    """
+    testo = norm(re.sub(r"\([^)]*\)", " ", nome))
+    testo = re.sub(r"\d+\s*%", " ", testo)
+    parole = [p for p in re.split(r"[^a-z0-9]+", testo) if p and p not in ARTICOLI]
+    while parole and parole[-1] in QUALIFICATORI:
+        parole.pop()
+    return " ".join(sorted(parole))
+
+
+def carica_alias(percorso: Path) -> dict:
+    """Mappa chiave-variante -> nome canonico, letta dal file degli alias."""
+    if not percorso.exists():
+        return {}
+    dati = json.loads(percorso.read_text(encoding="utf-8"))
+    mappa = {}
+    for canonico, varianti in dati.items():
+        if canonico.startswith("_"):
+            continue
+        mappa[chiave_prodotto(canonico)] = canonico
+        for variante in varianti:
+            mappa[chiave_prodotto(variante)] = canonico
+    return mappa
+
+
+def leggi_quantita(testo: str):
+    """'5 pz (≈273 g)' -> (5, 'pz', 273). Restituisce None se non e' interpretabile."""
+    match = QUANTITA_RE.match(testo or "")
+    if not match:
+        return None
+    valore = float(match.group(1).replace(",", "."))
+    unita_grezza = norm(match.group(2)) or "pz"
+    if unita_grezza not in UNITA:
+        return None
+    unita, fattore = UNITA[unita_grezza]
+    valore *= fattore
+
+    approssimati = None
+    if match.group(3) and norm(match.group(4)) in UNITA:
+        u2, f2 = UNITA[norm(match.group(4))]
+        if u2 == "g":
+            approssimati = float(match.group(3).replace(",", ".")) * f2
+    return valore, unita, approssimati
+
+
+def scrivi_quantita(valore: float, unita: str, approssimati=None) -> str:
+    def numero(x):
+        return str(int(round(x))) if abs(x - round(x)) < 0.05 else str(round(x, 2))
+
+    if unita in ("g", "ml") and valore >= 1000:
+        testo = f"{round(valore / 1000, 2)} {'kg' if unita == 'g' else 'l'}"
+    else:
+        testo = f"{numero(valore)} {unita}"
+    if approssimati:
+        testo += f" (≈{numero(approssimati)} g)"
+    return testo
+
+
+def somma_quantita(pezzi: list) -> str:
+    """Somma le quantita' se l'unita' e' compatibile, altrimenti le affianca."""
+    letture = [leggi_quantita(p["qty"]) for p in pezzi]
+    if any(l is None for l in letture) or len({l[1] for l in letture}) > 1:
+        return " + ".join(p["qty"] for p in pezzi)
+    totale = sum(l[0] for l in letture)
+    # il peso indicativo fra parentesi si somma solo se ce l'hanno tutti,
+    # altrimenti '5 pz (≈273 g)' + '17 pz' darebbe 22 pz (≈273 g), che e' falso
+    approssimati = sum(l[2] for l in letture) if all(l[2] for l in letture) else None
+    return scrivi_quantita(totale, letture[0][1], approssimati)
+
+
+def raggruppa_per_persona(pezzi: list) -> list:
+    """Un rigo per persona: se Giovanni compra grana a scaglie e grattugiato, li somma."""
+    ordine, per_persona = [], {}
+    for pezzo in pezzi:
+        if pezzo["person"] not in per_persona:
+            per_persona[pezzo["person"]] = []
+            ordine.append(pezzo["person"])
+        per_persona[pezzo["person"]].append(pezzo)
+    return [{"person": p, "qty": somma_quantita(per_persona[p])} for p in ordine]
+
+
+def unisci_liste(spesa: dict, alias: dict) -> tuple[list, list]:
+    """Accoppia la lista di Giovanni con ogni settimana di Rosalia e somma i doppioni."""
+    per_persona = {}
+    for gruppo in spesa.get("groups", []):
+        per_persona.setdefault(gruppo.get("person") or "altro", []).append(gruppo)
+
+    persone = [p for p in ("giovanni", "rosalia") if p in per_persona]
+    persone += [p for p in per_persona if p not in persone]
+    if len(persone) < 2:
+        return [], []
+
+    quante = max(len(per_persona[p]) for p in persone)
+    uniti, segnalazioni = [], []
+
+    for indice in range(quante):
+        # se una persona ha una sola lista vale per tutte le settimane dell'altra
+        accoppiati = [per_persona[p][indice % len(per_persona[p])] for p in persone]
+
+        # il titolo buono e' quello che numera la settimana ("Settimana 2"),
+        # non quello generico di chi ha una lista sola ("1 settimana")
+        etichetta = next(
+            (g["label"] for g in accoppiati if re.search(r"settimana\s*\d", norm(g["label"]))),
+            "",
+        )
+        titolo = re.sub(r"\s*\(.*\)", "", etichetta).strip().capitalize()
+        if not titolo:
+            titolo = f"Settimana {indice + 1}" if quante > 1 else "Lista della spesa"
+
+        categorie, ordine_cat = {}, []
+        for gruppo in accoppiati:
+            persona = (gruppo.get("person") or "").capitalize()
+            for categoria in gruppo["categories"]:
+                if categoria["name"] not in categorie:
+                    categorie[categoria["name"]] = {}
+                    ordine_cat.append(categoria["name"])
+                for voce in categoria["items"]:
+                    chiave = chiave_prodotto(voce["name"])
+                    canonico = alias.get(chiave)
+                    if canonico:
+                        chiave = chiave_prodotto(canonico)
+
+                    # lo stesso prodotto puo' stare in categorie diverse nei due fogli:
+                    # vince quella in cui compare per primo
+                    posto = next((c for c in ordine_cat if chiave in categorie[c]), categoria["name"])
+                    voci = categorie[posto]
+                    if chiave not in voci:
+                        voci[chiave] = {"name": canonico or voce["name"], "parts": []}
+                    elif not canonico and len(voce["name"]) < len(voci[chiave]["name"]):
+                        # fra due grafie dello stesso prodotto tiene la piu' snella
+                        voci[chiave]["name"] = voce["name"]
+                    voci[chiave]["parts"].append({"person": persona, "qty": voce["qty"]})
+
+        blocchi = []
+        for nome_cat in sorted(ordine_cat, key=posizione_categoria):
+            elenco = []
+            for chiave, voce in categorie[nome_cat].items():
+                quantita = somma_quantita(voce["parts"])
+                if " + " in quantita:
+                    segnalazioni.append(f"{voce['name']}: unita' diverse ({quantita})")
+                dettaglio = raggruppa_per_persona(voce["parts"])
+                elenco.append(
+                    {
+                        "name": voce["name"],
+                        "qty": quantita,
+                        "id": slugify(f"{titolo}-{chiave}"),
+                        "parts": dettaglio if len(dettaglio) > 1 else [],
+                    }
+                )
+            if elenco:
+                blocchi.append({"name": nome_cat, "items": sorted(elenco, key=lambda x: norm(x["name"]))})
+
+        uniti.append(
+            {
+                "name": titolo,
+                "label": titolo,
+                "slug": slugify("unita-" + titolo),
+                "person": "",
+                "sources": [
+                    (g["person"].capitalize() + " · " + g["label"]) if g.get("person") else g["name"]
+                    for g in accoppiati
+                ],
+                "categories": blocchi,
+            }
+        )
+
+    return uniti, segnalazioni
+
+
+def non_uniti(spesa: dict, alias: dict) -> list:
+    """Voci della lista piu' corta che non si sono unite a nessuna voce dell'altra.
+
+    Non si prova a indovinare i sinonimi: la somiglianza fra stringhe non distingue
+    'Grana a scaglie / Grana' (da unire) da 'Marmellata light / Mozzarella light'
+    (da tenere separati). Meglio un elenco breve, completo e sempre corretto, da
+    scorrere a occhio quando arriva un Excel nuovo.
+    """
+    per_persona = {}
+    for gruppo in spesa.get("groups", []):
+        for categoria in gruppo["categories"]:
+            for voce in categoria["items"]:
+                chiave = chiave_prodotto(voce["name"])
+                chiave = chiave_prodotto(alias[chiave]) if chiave in alias else chiave
+                per_persona.setdefault(gruppo.get("person") or "altro", {})[chiave] = voce["name"]
+
+    if len(per_persona) < 2:
+        return []
+    elenchi = sorted(per_persona.values(), key=len)
+    altre = {c for mappa in elenchi[1:] for c in mappa}
+    return sorted(nome for chiave, nome in elenchi[0].items() if chiave not in altre)
+
+
 # ---------------------------------------------------------------- collegamenti
 
 
@@ -481,6 +713,9 @@ def build(xlsx: Path) -> dict:
         da_provare = {"title": titolo_p, "subtitle": sottotitolo_p, "recipes": ricette_p}
 
     spesa = parse_spesa(foglio_spesa) if foglio_spesa is not None else {"groups": []}
+    alias = carica_alias(ROOT / "scripts" / "alias_spesa.json")
+    spesa["merged"], spesa["warnings"] = unisci_liste(spesa, alias)
+    spesa["unmerged"] = non_uniti(spesa, alias)
 
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
@@ -535,7 +770,21 @@ def main() -> None:
         )
         if s["orphans"]:
             print("    ricetta mancante per: " + ", ".join(s["orphans"]))
-    print(f"  Da provare {len(dati['to_try']['recipes'])} ricette · Spesa {len(dati['shopping']['groups'])} liste")
+    spesa = dati["shopping"]
+    uniti = spesa.get("merged", [])
+    voci_unite = sum(len(i["parts"]) > 1 for g in uniti for c in g["categories"] for i in c["items"])
+    print(
+        f"  Da provare {len(dati['to_try']['recipes'])} ricette · Spesa {len(spesa['groups'])} liste "
+        f"-> {len(uniti)} unite ({voci_unite} prodotti sommati)"
+    )
+    for avviso in spesa.get("warnings", []):
+        print("    ! " + avviso)
+    if spesa.get("unmerged"):
+        import textwrap
+        print(f"    Solo in una lista ({len(spesa['unmerged'])}) — se qualcuno e' lo stesso prodotto"
+              " scritto diverso, aggiungilo a scripts/alias_spesa.json:")
+        print(textwrap.fill(" · ".join(spesa["unmerged"]), 96,
+                            initial_indent="      ", subsequent_indent="      "))
     print(f"OK -> {out}")
 
     if args.standalone:

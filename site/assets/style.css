@@ -750,6 +750,11 @@ a.dish:hover .dish-title {
   margin-right: auto;
 }
 
+/* il badge delle kcal non deve stringersi quando il titolo e' lungo */
+.recipe-card .badge {
+  flex: none;
+}
+
 .recipe-card strong {
   font-family: var(--serif);
   font-size: 17px;
@@ -824,6 +829,20 @@ a.dish:hover .dish-title {
 .shop-item .name {
   margin-right: auto;
   font-size: 15px;
+}
+
+/* nelle liste unite: da chi arriva la quantita' */
+.shop-item .name small {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.sources {
+  margin: -4px 2px 12px;
+  color: var(--muted);
+  font-size: 12.5px;
 }
 
 .shop-item .qty {
