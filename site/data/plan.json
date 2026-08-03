@@ -1,0 +1,5168 @@
+{
+ "generated_at": "2026-08-03 18:10 UTC",
+ "source": "piano_alimentare.xlsx",
+ "people": [
+  {
+   "key": "giovanni",
+   "name": "Giovanni",
+   "accent": "teal",
+   "plan": {
+    "title": "PIANO ALIMENTARE SETTIMANALE — GIOVANNI · ~1700 kcal/giorno · 4 pasti",
+    "subtitle": "Pasta e riso solo a cena · colazioni veloci da portare al lavoro · niente pesce e molluschi · verdure: valeriana, cetrioli, pomodori · carne a crudo",
+    "weeks": [
+     {
+      "name": "Settimana tipo",
+      "days": [
+       {
+        "name": "Lunedì",
+        "total": 1688.52,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Pane integrale",
+            "qty": 70.0,
+            "kcal_100": 250.0,
+            "kcal": 175.0
+           },
+           {
+            "food": "Bresaola",
+            "qty": 50.0,
+            "kcal_100": 151.0,
+            "kcal": 75.5
+           },
+           {
+            "food": "Grana a scaglie",
+            "qty": 25.0,
+            "kcal_100": 392.0,
+            "kcal": 98.0
+           },
+           {
+            "food": "Pesca",
+            "qty": 130.0,
+            "kcal_100": 39.0,
+            "kcal": 50.7
+           }
+          ],
+          "kcal": 399.2
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Straccetti di pollo al curry",
+           "slug": "straccetti-di-pollo-al-curry"
+          },
+          "items": [
+           {
+            "food": "Petto di pollo (crudo)",
+            "qty": 180.0,
+            "kcal_100": 110.0,
+            "kcal": 198.0
+           },
+           {
+            "food": "Latte di cocco light",
+            "qty": 60.0,
+            "kcal_100": 73.0,
+            "kcal": 43.8
+           },
+           {
+            "food": "Cipolla",
+            "qty": 40.0,
+            "kcal_100": 40.0,
+            "kcal": 16.0
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 10.0,
+            "kcal_100": 900.0,
+            "kcal": 90.0
+           },
+           {
+            "food": "Pane integrale",
+            "qty": 60.0,
+            "kcal_100": 250.0,
+            "kcal": 150.0
+           },
+           {
+            "food": "Cetrioli",
+            "qty": 100.0,
+            "kcal_100": 15.0,
+            "kcal": 15.0
+           }
+          ],
+          "kcal": 512.8
+         },
+         {
+          "name": "Merenda",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Yogurt greco 2%",
+            "qty": 170.0,
+            "kcal_100": 73.0,
+            "kcal": 124.1
+           },
+           {
+            "food": "Noci sgusciate",
+            "qty": 18.0,
+            "kcal_100": 654.0,
+            "kcal": 117.72
+           }
+          ],
+          "kcal": 241.8
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Pasta al pomodoro e grana",
+           "slug": "pasta-al-pomodoro-e-grana"
+          },
+          "items": [
+           {
+            "food": "Pasta secca",
+            "qty": 90.0,
+            "kcal_100": 353.0,
+            "kcal": 317.7
+           },
+           {
+            "food": "Passata di pomodoro",
+            "qty": 200.0,
+            "kcal_100": 18.0,
+            "kcal": 36.0
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 10.0,
+            "kcal_100": 900.0,
+            "kcal": 90.0
+           },
+           {
+            "food": "Grana grattugiato",
+            "qty": 20.0,
+            "kcal_100": 392.0,
+            "kcal": 78.4
+           },
+           {
+            "food": "Valeriana (songino)",
+            "qty": 60.0,
+            "kcal_100": 21.0,
+            "kcal": 12.6
+           }
+          ],
+          "kcal": 534.7
+         }
+        ]
+       },
+       {
+        "name": "Martedì",
+        "total": 1700.5,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Fette biscottate integrali (≈5)",
+            "qty": 40.0,
+            "kcal_100": 408.0,
+            "kcal": 163.2
+           },
+           {
+            "food": "Marmellata light",
+            "qty": 40.0,
+            "kcal_100": 130.0,
+            "kcal": 52.0
+           },
+           {
+            "food": "Yogurt greco 2%",
+            "qty": 170.0,
+            "kcal_100": 73.0,
+            "kcal": 124.1
+           },
+           {
+            "food": "Banana",
+            "qty": 100.0,
+            "kcal_100": 89.0,
+            "kcal": 89.0
+           }
+          ],
+          "kcal": 428.3
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Scaloppine di pollo ai funghi",
+           "slug": "scaloppine-di-pollo-ai-funghi"
+          },
+          "items": [
+           {
+            "food": "Petto di pollo (crudo)",
+            "qty": 170.0,
+            "kcal_100": 110.0,
+            "kcal": 187.0
+           },
+           {
+            "food": "Funghi champignon",
+            "qty": 150.0,
+            "kcal_100": 22.0,
+            "kcal": 33.0
+           },
+           {
+            "food": "Farina",
+            "qty": 10.0,
+            "kcal_100": 340.0,
+            "kcal": 34.0
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 10.0,
+            "kcal_100": 900.0,
+            "kcal": 90.0
+           },
+           {
+            "food": "Pane integrale",
+            "qty": 55.0,
+            "kcal_100": 250.0,
+            "kcal": 137.5
+           },
+           {
+            "food": "Cetrioli",
+            "qty": 100.0,
+            "kcal_100": 15.0,
+            "kcal": 15.0
+           }
+          ],
+          "kcal": 496.5
+         },
+         {
+          "name": "Merenda",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Fiocchi di latte",
+            "qty": 150.0,
+            "kcal_100": 98.0,
+            "kcal": 147.0
+           },
+           {
+            "food": "Pesca",
+            "qty": 130.0,
+            "kcal_100": 39.0,
+            "kcal": 50.7
+           }
+          ],
+          "kcal": 197.7
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Riso basmati con tacchino",
+           "slug": "riso-basmati-con-tacchino"
+          },
+          "items": [
+           {
+            "food": "Riso basmati",
+            "qty": 85.0,
+            "kcal_100": 350.0,
+            "kcal": 297.5
+           },
+           {
+            "food": "Petto di tacchino (crudo)",
+            "qty": 150.0,
+            "kcal_100": 108.0,
+            "kcal": 162.0
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 10.0,
+            "kcal_100": 900.0,
+            "kcal": 90.0
+           },
+           {
+            "food": "Pomodori",
+            "qty": 100.0,
+            "kcal_100": 18.0,
+            "kcal": 18.0
+           },
+           {
+            "food": "Valeriana (songino)",
+            "qty": 50.0,
+            "kcal_100": 21.0,
+            "kcal": 10.5
+           }
+          ],
+          "kcal": 578.0
+         }
+        ]
+       },
+       {
+        "name": "Mercoledì",
+        "total": 1703.46,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Yogurt greco 2%",
+            "qty": 170.0,
+            "kcal_100": 73.0,
+            "kcal": 124.1
+           },
+           {
+            "food": "Muesli fatto in casa",
+            "qty": 45.0,
+            "kcal_100": 430.0,
+            "kcal": 193.5
+           },
+           {
+            "food": "Banana",
+            "qty": 100.0,
+            "kcal_100": 89.0,
+            "kcal": 89.0
+           }
+          ],
+          "kcal": 406.6
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Insalatona con cotoletta light",
+           "slug": "insalatona-con-cotoletta-light"
+          },
+          "items": [
+           {
+            "food": "Petto di pollo (crudo)",
+            "qty": 160.0,
+            "kcal_100": 110.0,
+            "kcal": 176.0
+           },
+           {
+            "food": "Pangrattato",
+            "qty": 25.0,
+            "kcal_100": 350.0,
+            "kcal": 87.5
+           },
+           {
+            "food": "Uovo (per impanare)",
+            "qty": 30.0,
+            "kcal_100": 130.0,
+            "kcal": 39.0
+           },
+           {
+            "food": "Valeriana (songino)",
+            "qty": 60.0,
+            "kcal_100": 21.0,
+            "kcal": 12.6
+           },
+           {
+            "food": "Cetrioli",
+            "qty": 100.0,
+            "kcal_100": 15.0,
+            "kcal": 15.0
+           },
+           {
+            "food": "Pomodori",
+            "qty": 100.0,
+            "kcal_100": 18.0,
+            "kcal": 18.0
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 8.0,
+            "kcal_100": 900.0,
+            "kcal": 72.0
+           },
+           {
+            "food": "Pane integrale",
+            "qty": 50.0,
+            "kcal_100": 250.0,
+            "kcal": 125.0
+           }
+          ],
+          "kcal": 545.1
+         },
+         {
+          "name": "Merenda",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Pane integrale",
+            "qty": 40.0,
+            "kcal_100": 250.0,
+            "kcal": 100.0
+           },
+           {
+            "food": "Bresaola",
+            "qty": 40.0,
+            "kcal_100": 151.0,
+            "kcal": 60.4
+           },
+           {
+            "food": "Grana a scaglie",
+            "qty": 15.0,
+            "kcal_100": 392.0,
+            "kcal": 58.8
+           }
+          ],
+          "kcal": 219.2
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Pasta e lenticchie",
+           "slug": "pasta-e-lenticchie"
+          },
+          "items": [
+           {
+            "food": "Pasta secca",
+            "qty": 72.0,
+            "kcal_100": 353.0,
+            "kcal": 254.16
+           },
+           {
+            "food": "Lenticchie cotte",
+            "qty": 150.0,
+            "kcal_100": 116.0,
+            "kcal": 174.0
+           },
+           {
+            "food": "Passata di pomodoro",
+            "qty": 80.0,
+            "kcal_100": 18.0,
+            "kcal": 14.4
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 10.0,
+            "kcal_100": 900.0,
+            "kcal": 90.0
+           }
+          ],
+          "kcal": 532.6
+         }
+        ]
+       },
+       {
+        "name": "Giovedì",
+        "total": 1703.9,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Pane integrale",
+            "qty": 70.0,
+            "kcal_100": 250.0,
+            "kcal": 175.0
+           },
+           {
+            "food": "Prosciutto crudo magro",
+            "qty": 45.0,
+            "kcal_100": 240.0,
+            "kcal": 108.0
+           },
+           {
+            "food": "Grana a scaglie",
+            "qty": 20.0,
+            "kcal_100": 392.0,
+            "kcal": 78.4
+           },
+           {
+            "food": "Anguria",
+            "qty": 200.0,
+            "kcal_100": 30.0,
+            "kcal": 60.0
+           }
+          ],
+          "kcal": 421.4
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Tacos light con chili (piadina integrale)",
+           "slug": "tacos-light-con-chili-piadina-integrale"
+          },
+          "items": [
+           {
+            "food": "Piadina integrale",
+            "qty": 80.0,
+            "kcal_100": 290.0,
+            "kcal": 232.0
+           },
+           {
+            "food": "Macinato di manzo magro (crudo)",
+            "qty": 130.0,
+            "kcal_100": 140.0,
+            "kcal": 182.0
+           },
+           {
+            "food": "Fagioli cannellini cotti",
+            "qty": 90.0,
+            "kcal_100": 120.0,
+            "kcal": 108.0
+           },
+           {
+            "food": "Passata di pomodoro",
+            "qty": 80.0,
+            "kcal_100": 18.0,
+            "kcal": 14.4
+           },
+           {
+            "food": "Cipolla",
+            "qty": 40.0,
+            "kcal_100": 40.0,
+            "kcal": 16.0
+           },
+           {
+            "food": "Mozzarella light",
+            "qty": 25.0,
+            "kcal_100": 180.0,
+            "kcal": 45.0
+           }
+          ],
+          "kcal": 597.4
+         },
+         {
+          "name": "Merenda",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Yogurt greco 2%",
+            "qty": 170.0,
+            "kcal_100": 73.0,
+            "kcal": 124.1
+           },
+           {
+            "food": "Noci sgusciate",
+            "qty": 10.0,
+            "kcal_100": 654.0,
+            "kcal": 65.4
+           }
+          ],
+          "kcal": 189.5
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Riso basmati con uova e valeriana",
+           "slug": "riso-basmati-con-uova-e-valeriana"
+          },
+          "items": [
+           {
+            "food": "Riso basmati",
+            "qty": 70.0,
+            "kcal_100": 350.0,
+            "kcal": 245.0
+           },
+           {
+            "food": "Uova intere (≈2)",
+            "qty": 100.0,
+            "kcal_100": 130.0,
+            "kcal": 130.0
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 10.0,
+            "kcal_100": 900.0,
+            "kcal": 90.0
+           },
+           {
+            "food": "Valeriana (songino)",
+            "qty": 60.0,
+            "kcal_100": 21.0,
+            "kcal": 12.6
+           },
+           {
+            "food": "Pomodori",
+            "qty": 100.0,
+            "kcal_100": 18.0,
+            "kcal": 18.0
+           }
+          ],
+          "kcal": 495.6
+         }
+        ]
+       },
+       {
+        "name": "Venerdì",
+        "total": 1700.85,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Fette biscottate integrali (≈5)",
+            "qty": 40.0,
+            "kcal_100": 408.0,
+            "kcal": 163.2
+           },
+           {
+            "food": "Marmellata light",
+            "qty": 40.0,
+            "kcal_100": 130.0,
+            "kcal": 52.0
+           },
+           {
+            "food": "Yogurt greco 2%",
+            "qty": 170.0,
+            "kcal_100": 73.0,
+            "kcal": 124.1
+           },
+           {
+            "food": "Pesca",
+            "qty": 130.0,
+            "kcal_100": 39.0,
+            "kcal": 50.7
+           }
+          ],
+          "kcal": 390.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Frittata con grana e valeriana",
+           "slug": "frittata-con-grana-e-valeriana"
+          },
+          "items": [
+           {
+            "food": "Uova intere (≈3)",
+            "qty": 140.0,
+            "kcal_100": 130.0,
+            "kcal": 182.0
+           },
+           {
+            "food": "Grana grattugiato",
+            "qty": 20.0,
+            "kcal_100": 392.0,
+            "kcal": 78.4
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 8.0,
+            "kcal_100": 900.0,
+            "kcal": 72.0
+           },
+           {
+            "food": "Valeriana (songino)",
+            "qty": 60.0,
+            "kcal_100": 21.0,
+            "kcal": 12.6
+           },
+           {
+            "food": "Cetrioli",
+            "qty": 100.0,
+            "kcal_100": 15.0,
+            "kcal": 15.0
+           },
+           {
+            "food": "Pane integrale",
+            "qty": 70.0,
+            "kcal_100": 250.0,
+            "kcal": 175.0
+           }
+          ],
+          "kcal": 535.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Banana",
+            "qty": 120.0,
+            "kcal_100": 89.0,
+            "kcal": 106.8
+           },
+           {
+            "food": "Noci sgusciate",
+            "qty": 15.0,
+            "kcal_100": 654.0,
+            "kcal": 98.1
+           }
+          ],
+          "kcal": 204.9
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Pasta al ragù",
+           "slug": "pasta-al-ragu"
+          },
+          "items": [
+           {
+            "food": "Pasta secca",
+            "qty": 75.0,
+            "kcal_100": 353.0,
+            "kcal": 264.75
+           },
+           {
+            "food": "Macinato di manzo magro (crudo)",
+            "qty": 120.0,
+            "kcal_100": 140.0,
+            "kcal": 168.0
+           },
+           {
+            "food": "Passata di pomodoro",
+            "qty": 150.0,
+            "kcal_100": 18.0,
+            "kcal": 27.0
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 8.0,
+            "kcal_100": 900.0,
+            "kcal": 72.0
+           },
+           {
+            "food": "Grana grattugiato",
+            "qty": 10.0,
+            "kcal_100": 392.0,
+            "kcal": 39.2
+           }
+          ],
+          "kcal": 571.0
+         }
+        ]
+       },
+       {
+        "name": "Sabato",
+        "total": 1703.26,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Yogurt greco 2%",
+            "qty": 170.0,
+            "kcal_100": 73.0,
+            "kcal": 124.1
+           },
+           {
+            "food": "Muesli fatto in casa",
+            "qty": 50.0,
+            "kcal_100": 430.0,
+            "kcal": 215.0
+           },
+           {
+            "food": "Pesca",
+            "qty": 130.0,
+            "kcal_100": 39.0,
+            "kcal": 50.7
+           }
+          ],
+          "kcal": 389.8
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Straccetti di tacchino al limone",
+           "slug": "straccetti-di-tacchino-al-limone"
+          },
+          "items": [
+           {
+            "food": "Petto di tacchino (crudo)",
+            "qty": 180.0,
+            "kcal_100": 108.0,
+            "kcal": 194.4
+           },
+           {
+            "food": "Farina",
+            "qty": 10.0,
+            "kcal_100": 340.0,
+            "kcal": 34.0
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 10.0,
+            "kcal_100": 900.0,
+            "kcal": 90.0
+           },
+           {
+            "food": "Valeriana (songino)",
+            "qty": 60.0,
+            "kcal_100": 21.0,
+            "kcal": 12.6
+           },
+           {
+            "food": "Pomodori",
+            "qty": 100.0,
+            "kcal_100": 18.0,
+            "kcal": 18.0
+           },
+           {
+            "food": "Pane integrale",
+            "qty": 70.0,
+            "kcal_100": 250.0,
+            "kcal": 175.0
+           }
+          ],
+          "kcal": 524.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Fiocchi di latte",
+            "qty": 170.0,
+            "kcal_100": 98.0,
+            "kcal": 166.6
+           },
+           {
+            "food": "Noci sgusciate",
+            "qty": 14.0,
+            "kcal_100": 654.0,
+            "kcal": 91.56
+           }
+          ],
+          "kcal": 258.2
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Gnocchi alla sorrentina light",
+           "slug": "gnocchi-alla-sorrentina-light"
+          },
+          "items": [
+           {
+            "food": "Gnocchi di patate",
+            "qty": 220.0,
+            "kcal_100": 160.0,
+            "kcal": 352.0
+           },
+           {
+            "food": "Passata di pomodoro",
+            "qty": 120.0,
+            "kcal_100": 18.0,
+            "kcal": 21.6
+           },
+           {
+            "food": "Mozzarella light",
+            "qty": 60.0,
+            "kcal_100": 180.0,
+            "kcal": 108.0
+           },
+           {
+            "food": "Grana grattugiato",
+            "qty": 10.0,
+            "kcal_100": 392.0,
+            "kcal": 39.2
+           },
+           {
+            "food": "Valeriana (songino)",
+            "qty": 50.0,
+            "kcal_100": 21.0,
+            "kcal": 10.5
+           }
+          ],
+          "kcal": 531.3
+         }
+        ]
+       },
+       {
+        "name": "Domenica",
+        "total": 1700.9,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Pane integrale",
+            "qty": 70.0,
+            "kcal_100": 250.0,
+            "kcal": 175.0
+           },
+           {
+            "food": "Bresaola",
+            "qty": 50.0,
+            "kcal_100": 151.0,
+            "kcal": 75.5
+           },
+           {
+            "food": "Grana a scaglie",
+            "qty": 25.0,
+            "kcal_100": 392.0,
+            "kcal": 98.0
+           },
+           {
+            "food": "Banana",
+            "qty": 100.0,
+            "kcal_100": 89.0,
+            "kcal": 89.0
+           }
+          ],
+          "kcal": 437.5
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Hamburger di manzo con valeriana",
+           "slug": "hamburger-di-manzo-con-valeriana"
+          },
+          "items": [
+           {
+            "food": "Macinato di manzo magro (crudo)",
+            "qty": 150.0,
+            "kcal_100": 140.0,
+            "kcal": 210.0
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 8.0,
+            "kcal_100": 900.0,
+            "kcal": 72.0
+           },
+           {
+            "food": "Valeriana (songino)",
+            "qty": 60.0,
+            "kcal_100": 21.0,
+            "kcal": 12.6
+           },
+           {
+            "food": "Pomodori",
+            "qty": 100.0,
+            "kcal_100": 18.0,
+            "kcal": 18.0
+           },
+           {
+            "food": "Pane integrale",
+            "qty": 70.0,
+            "kcal_100": 250.0,
+            "kcal": 175.0
+           }
+          ],
+          "kcal": 487.6
+         },
+         {
+          "name": "Merenda",
+          "recipe": null,
+          "items": [
+           {
+            "food": "Yogurt greco 2%",
+            "qty": 170.0,
+            "kcal_100": 73.0,
+            "kcal": 124.1
+           },
+           {
+            "food": "Anguria",
+            "qty": 250.0,
+            "kcal_100": 30.0,
+            "kcal": 75.0
+           }
+          ],
+          "kcal": 199.1
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Riso con polpette al sugo",
+           "slug": "riso-con-polpette-al-sugo"
+          },
+          "items": [
+           {
+            "food": "Riso basmati",
+            "qty": 70.0,
+            "kcal_100": 350.0,
+            "kcal": 245.0
+           },
+           {
+            "food": "Macinato di manzo magro (crudo)",
+            "qty": 115.0,
+            "kcal_100": 140.0,
+            "kcal": 161.0
+           },
+           {
+            "food": "Uovo (per legare)",
+            "qty": 25.0,
+            "kcal_100": 130.0,
+            "kcal": 32.5
+           },
+           {
+            "food": "Passata di pomodoro",
+            "qty": 150.0,
+            "kcal_100": 18.0,
+            "kcal": 27.0
+           },
+           {
+            "food": "Olio extravergine d'oliva",
+            "qty": 8.0,
+            "kcal_100": 900.0,
+            "kcal": 72.0
+           },
+           {
+            "food": "Grana grattugiato",
+            "qty": 10.0,
+            "kcal_100": 392.0,
+            "kcal": 39.2
+           }
+          ],
+          "kcal": 576.7
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "notes": [
+     {
+      "title": "MUESLI FATTO IN CASA — ricetta base (~430 kcal/100g)",
+      "body": "Per ~400 g: 200 g fiocchi d'avena · 80 g noci tritate grossolanamente · 60 g uvetta o frutta essiccata · 40 g semi misti (girasole/zucca/lino) · 20 g fiocchi di cocco non zuccherati. Mescolare e conservare in barattolo chiuso."
+     },
+     {
+      "title": "COLAZIONI DA PORTARE AL LAVORO",
+      "body": "Le tre colazioni ruotano su schemi pronti in 2 minuti: (1) pane integrale + bresaola/prosciutto + grana a scaglie + frutta — si prepara la sera e si porta in un contenitore; (2) fette biscottate integrali + marmellata light + yogurt greco + frutta — fette e marmellata in un sacchetto, yogurt nel vasetto; (3) yogurt greco + muesli + frutta — porta il muesli a parte e uniscilo al momento per non farlo ammorbidire."
+     }
+    ],
+    "kcal_target": 1700.0,
+    "meals_per_day": 4
+   },
+   "recipes": [
+    {
+     "slug": "straccetti-di-pollo-al-curry",
+     "name": "Straccetti di pollo al curry",
+     "when": "Pranzo · lun",
+     "prep": "Taglia 180 g di petto di pollo a striscioline. Rosola 40 g di cipolla tritata in 10 g d'olio, unisci il pollo e fai colorire a fiamma vivace 3-4 min. Aggiungi 1 cucchiaino di curry, sale, pepe e 60 g di latte di cocco light. Fai restringere 5 min a fuoco medio finché la salsa vela la carne. Servi con 60 g di pane integrale e cetrioli a fette.",
+     "ingredients": "",
+     "kcal": 512.8,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Lunedì",
+       "meal": "Pranzo"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Petto di pollo (crudo)",
+       "qty": 180.0,
+       "kcal_100": 110.0,
+       "kcal": 198.0
+      },
+      {
+       "food": "Latte di cocco light",
+       "qty": 60.0,
+       "kcal_100": 73.0,
+       "kcal": 43.8
+      },
+      {
+       "food": "Cipolla",
+       "qty": 40.0,
+       "kcal_100": 40.0,
+       "kcal": 16.0
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 10.0,
+       "kcal_100": 900.0,
+       "kcal": 90.0
+      },
+      {
+       "food": "Pane integrale",
+       "qty": 60.0,
+       "kcal_100": 250.0,
+       "kcal": 150.0
+      },
+      {
+       "food": "Cetrioli",
+       "qty": 100.0,
+       "kcal_100": 15.0,
+       "kcal": 15.0
+      }
+     ]
+    },
+    {
+     "slug": "scaloppine-di-pollo-ai-funghi",
+     "name": "Scaloppine di pollo ai funghi",
+     "when": "Pranzo · mar",
+     "prep": "Taglia 170 g di pollo a fettine sottili e infarinale leggermente (10 g di farina). Scalda 10 g d'olio, rosola le fettine 2 min per lato e togli. Nella stessa padella salta 150 g di champignon affettati, sala e sfuma con un goccio d'acqua. Rimetti il pollo, copri e cuoci 5 min. Accompagna con 70 g di pane integrale.",
+     "ingredients": "",
+     "kcal": 496.5,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Martedì",
+       "meal": "Pranzo"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Petto di pollo (crudo)",
+       "qty": 170.0,
+       "kcal_100": 110.0,
+       "kcal": 187.0
+      },
+      {
+       "food": "Funghi champignon",
+       "qty": 150.0,
+       "kcal_100": 22.0,
+       "kcal": 33.0
+      },
+      {
+       "food": "Farina",
+       "qty": 10.0,
+       "kcal_100": 340.0,
+       "kcal": 34.0
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 10.0,
+       "kcal_100": 900.0,
+       "kcal": 90.0
+      },
+      {
+       "food": "Pane integrale",
+       "qty": 55.0,
+       "kcal_100": 250.0,
+       "kcal": 137.5
+      },
+      {
+       "food": "Cetrioli",
+       "qty": 100.0,
+       "kcal_100": 15.0,
+       "kcal": 15.0
+      }
+     ]
+    },
+    {
+     "slug": "insalatona-con-cotoletta-light",
+     "name": "Insalatona con cotoletta light",
+     "when": "Pranzo · mer",
+     "prep": "Batti 160 g di petto di pollo, passalo in 30 g di uovo sbattuto e poi in 25 g di pangrattato con sale e pepe. Cuoci in forno a 200 °C per 18-20 min (girala a metà) o in padella antiaderente con pochissimo olio. Servi a strisce su un letto di 60 g di valeriana, 100 g di cetrioli e 100 g di pomodori conditi con 8 g d'olio. A parte 60 g di pane integrale.",
+     "ingredients": "",
+     "kcal": 545.1,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Mercoledì",
+       "meal": "Pranzo"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Petto di pollo (crudo)",
+       "qty": 160.0,
+       "kcal_100": 110.0,
+       "kcal": 176.0
+      },
+      {
+       "food": "Pangrattato",
+       "qty": 25.0,
+       "kcal_100": 350.0,
+       "kcal": 87.5
+      },
+      {
+       "food": "Uovo (per impanare)",
+       "qty": 30.0,
+       "kcal_100": 130.0,
+       "kcal": 39.0
+      },
+      {
+       "food": "Valeriana (songino)",
+       "qty": 60.0,
+       "kcal_100": 21.0,
+       "kcal": 12.6
+      },
+      {
+       "food": "Cetrioli",
+       "qty": 100.0,
+       "kcal_100": 15.0,
+       "kcal": 15.0
+      },
+      {
+       "food": "Pomodori",
+       "qty": 100.0,
+       "kcal_100": 18.0,
+       "kcal": 18.0
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 8.0,
+       "kcal_100": 900.0,
+       "kcal": 72.0
+      },
+      {
+       "food": "Pane integrale",
+       "qty": 50.0,
+       "kcal_100": 250.0,
+       "kcal": 125.0
+      }
+     ]
+    },
+    {
+     "slug": "tacos-light-con-chili-piadina-integrale",
+     "name": "Tacos light con chili (piadina integrale)",
+     "when": "Pranzo · gio",
+     "prep": "Rosola 40 g di cipolla, unisci 150 g di macinato magro e fallo colorire. Aggiungi 80 g di passata, 100 g di fagioli cannellini, paprika, cumino, peperoncino e un goccio d'acqua: cuoci 12-15 min finché si addensa. Scalda 100 g di piadina integrale, farciscila con il chili e 30 g di mozzarella light, poi piegala a tacos.",
+     "ingredients": "",
+     "kcal": 597.4,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Giovedì",
+       "meal": "Pranzo"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Piadina integrale",
+       "qty": 80.0,
+       "kcal_100": 290.0,
+       "kcal": 232.0
+      },
+      {
+       "food": "Macinato di manzo magro (crudo)",
+       "qty": 130.0,
+       "kcal_100": 140.0,
+       "kcal": 182.0
+      },
+      {
+       "food": "Fagioli cannellini cotti",
+       "qty": 90.0,
+       "kcal_100": 120.0,
+       "kcal": 108.0
+      },
+      {
+       "food": "Passata di pomodoro",
+       "qty": 80.0,
+       "kcal_100": 18.0,
+       "kcal": 14.4
+      },
+      {
+       "food": "Cipolla",
+       "qty": 40.0,
+       "kcal_100": 40.0,
+       "kcal": 16.0
+      },
+      {
+       "food": "Mozzarella light",
+       "qty": 25.0,
+       "kcal_100": 180.0,
+       "kcal": 45.0
+      }
+     ]
+    },
+    {
+     "slug": "frittata-con-grana-e-valeriana",
+     "name": "Frittata con grana e valeriana",
+     "when": "Pranzo · ven",
+     "prep": "Sbatti 3 uova con 20 g di grana, sale e pepe. Versa in padella con 8 g d'olio e cuoci a fuoco basso 4-5 min per lato. Servi con 60 g di valeriana e cetrioli in insalata e 70 g di pane integrale.",
+     "ingredients": "",
+     "kcal": 535.0,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Venerdì",
+       "meal": "Pranzo"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Uova intere (≈3)",
+       "qty": 140.0,
+       "kcal_100": 130.0,
+       "kcal": 182.0
+      },
+      {
+       "food": "Grana grattugiato",
+       "qty": 20.0,
+       "kcal_100": 392.0,
+       "kcal": 78.4
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 8.0,
+       "kcal_100": 900.0,
+       "kcal": 72.0
+      },
+      {
+       "food": "Valeriana (songino)",
+       "qty": 60.0,
+       "kcal_100": 21.0,
+       "kcal": 12.6
+      },
+      {
+       "food": "Cetrioli",
+       "qty": 100.0,
+       "kcal_100": 15.0,
+       "kcal": 15.0
+      },
+      {
+       "food": "Pane integrale",
+       "qty": 70.0,
+       "kcal_100": 250.0,
+       "kcal": 175.0
+      }
+     ]
+    },
+    {
+     "slug": "straccetti-di-tacchino-al-limone",
+     "name": "Straccetti di tacchino al limone",
+     "when": "Pranzo · sab",
+     "prep": "Taglia 180 g di tacchino a striscioline e infarinale (10 g). Rosola in 10 g d'olio 3 min, sfuma con il succo di mezzo limone e 2 cucchiai d'acqua, sala e lascia addensare 2 min. Servi con valeriana, pomodori e 70 g di pane integrale.",
+     "ingredients": "",
+     "kcal": 524.0,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Sabato",
+       "meal": "Pranzo"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Petto di tacchino (crudo)",
+       "qty": 180.0,
+       "kcal_100": 108.0,
+       "kcal": 194.4
+      },
+      {
+       "food": "Farina",
+       "qty": 10.0,
+       "kcal_100": 340.0,
+       "kcal": 34.0
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 10.0,
+       "kcal_100": 900.0,
+       "kcal": 90.0
+      },
+      {
+       "food": "Valeriana (songino)",
+       "qty": 60.0,
+       "kcal_100": 21.0,
+       "kcal": 12.6
+      },
+      {
+       "food": "Pomodori",
+       "qty": 100.0,
+       "kcal_100": 18.0,
+       "kcal": 18.0
+      },
+      {
+       "food": "Pane integrale",
+       "qty": 70.0,
+       "kcal_100": 250.0,
+       "kcal": 175.0
+      }
+     ]
+    },
+    {
+     "slug": "hamburger-di-manzo-con-valeriana",
+     "name": "Hamburger di manzo con valeriana",
+     "when": "Pranzo · dom",
+     "prep": "Forma un hamburger con 170 g di macinato magro, sale e pepe. Cuoci in padella rovente 3-4 min per lato senza schiacciarlo. Servi dentro 70 g di pane integrale con valeriana e pomodori a fette, un filo d'olio a crudo.",
+     "ingredients": "",
+     "kcal": 487.6,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Domenica",
+       "meal": "Pranzo"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Macinato di manzo magro (crudo)",
+       "qty": 150.0,
+       "kcal_100": 140.0,
+       "kcal": 210.0
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 8.0,
+       "kcal_100": 900.0,
+       "kcal": 72.0
+      },
+      {
+       "food": "Valeriana (songino)",
+       "qty": 60.0,
+       "kcal_100": 21.0,
+       "kcal": 12.6
+      },
+      {
+       "food": "Pomodori",
+       "qty": 100.0,
+       "kcal_100": 18.0,
+       "kcal": 18.0
+      },
+      {
+       "food": "Pane integrale",
+       "qty": 70.0,
+       "kcal_100": 250.0,
+       "kcal": 175.0
+      }
+     ]
+    },
+    {
+     "slug": "pasta-al-pomodoro-e-grana",
+     "name": "Pasta al pomodoro e grana",
+     "when": "Cena · lun",
+     "prep": "Cuoci 90 g di pasta. A parte scalda 200 g di passata con 10 g d'olio, sale e basilico per 10 min. Manteca la pasta nel sugo e completa con 20 g di grana. Contorno di valeriana.",
+     "ingredients": "",
+     "kcal": 534.7,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Lunedì",
+       "meal": "Cena"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Pasta secca",
+       "qty": 90.0,
+       "kcal_100": 353.0,
+       "kcal": 317.7
+      },
+      {
+       "food": "Passata di pomodoro",
+       "qty": 200.0,
+       "kcal_100": 18.0,
+       "kcal": 36.0
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 10.0,
+       "kcal_100": 900.0,
+       "kcal": 90.0
+      },
+      {
+       "food": "Grana grattugiato",
+       "qty": 20.0,
+       "kcal_100": 392.0,
+       "kcal": 78.4
+      },
+      {
+       "food": "Valeriana (songino)",
+       "qty": 60.0,
+       "kcal_100": 21.0,
+       "kcal": 12.6
+      }
+     ]
+    },
+    {
+     "slug": "riso-basmati-con-tacchino",
+     "name": "Riso basmati con tacchino",
+     "when": "Cena · mar",
+     "prep": "Lessa 85 g di riso basmati. Salta 150 g di tacchino a straccetti in 10 g d'olio con sale e spezie, aggiungi 100 g di pomodori a cubetti e cuoci 5 min. Unisci il riso e salta 1 minuto insieme.",
+     "ingredients": "",
+     "kcal": 578.0,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Martedì",
+       "meal": "Cena"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Riso basmati",
+       "qty": 85.0,
+       "kcal_100": 350.0,
+       "kcal": 297.5
+      },
+      {
+       "food": "Petto di tacchino (crudo)",
+       "qty": 150.0,
+       "kcal_100": 108.0,
+       "kcal": 162.0
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 10.0,
+       "kcal_100": 900.0,
+       "kcal": 90.0
+      },
+      {
+       "food": "Pomodori",
+       "qty": 100.0,
+       "kcal_100": 18.0,
+       "kcal": 18.0
+      },
+      {
+       "food": "Valeriana (songino)",
+       "qty": 50.0,
+       "kcal_100": 21.0,
+       "kcal": 10.5
+      }
+     ]
+    },
+    {
+     "slug": "pasta-e-lenticchie",
+     "name": "Pasta e lenticchie",
+     "when": "Cena · mer",
+     "prep": "Scalda 150 g di lenticchie già cotte con 80 g di passata, 10 g d'olio, aglio e rosmarino. Allunga con acqua di cottura e unisci 80 g di pasta cotta al dente, mantecando 1-2 min.",
+     "ingredients": "",
+     "kcal": 532.6,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Mercoledì",
+       "meal": "Cena"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Pasta secca",
+       "qty": 72.0,
+       "kcal_100": 353.0,
+       "kcal": 254.16
+      },
+      {
+       "food": "Lenticchie cotte",
+       "qty": 150.0,
+       "kcal_100": 116.0,
+       "kcal": 174.0
+      },
+      {
+       "food": "Passata di pomodoro",
+       "qty": 80.0,
+       "kcal_100": 18.0,
+       "kcal": 14.4
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 10.0,
+       "kcal_100": 900.0,
+       "kcal": 90.0
+      }
+     ]
+    },
+    {
+     "slug": "riso-basmati-con-uova-e-valeriana",
+     "name": "Riso basmati con uova e valeriana",
+     "when": "Cena · gio",
+     "prep": "Lessa 85 g di riso. Strapazza 2 uova in padella con 10 g d'olio, unisci il riso e 100 g di pomodori a cubetti, salta 2 min. Fuori dal fuoco aggiungi 60 g di valeriana perché appassisca appena.",
+     "ingredients": "",
+     "kcal": 495.6,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Giovedì",
+       "meal": "Cena"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Riso basmati",
+       "qty": 70.0,
+       "kcal_100": 350.0,
+       "kcal": 245.0
+      },
+      {
+       "food": "Uova intere (≈2)",
+       "qty": 100.0,
+       "kcal_100": 130.0,
+       "kcal": 130.0
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 10.0,
+       "kcal_100": 900.0,
+       "kcal": 90.0
+      },
+      {
+       "food": "Valeriana (songino)",
+       "qty": 60.0,
+       "kcal_100": 21.0,
+       "kcal": 12.6
+      },
+      {
+       "food": "Pomodori",
+       "qty": 100.0,
+       "kcal_100": 18.0,
+       "kcal": 18.0
+      }
+     ]
+    },
+    {
+     "slug": "pasta-al-ragu",
+     "name": "Pasta al ragù",
+     "when": "Cena · ven",
+     "prep": "Rosola 120 g di macinato magro in 8 g d'olio, sfuma e unisci 150 g di passata. Cuoci 20 min a fuoco dolce. Condisci 85 g di pasta e spolvera con 10 g di grana.",
+     "ingredients": "",
+     "kcal": 571.0,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Venerdì",
+       "meal": "Cena"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Pasta secca",
+       "qty": 75.0,
+       "kcal_100": 353.0,
+       "kcal": 264.75
+      },
+      {
+       "food": "Macinato di manzo magro (crudo)",
+       "qty": 120.0,
+       "kcal_100": 140.0,
+       "kcal": 168.0
+      },
+      {
+       "food": "Passata di pomodoro",
+       "qty": 150.0,
+       "kcal_100": 18.0,
+       "kcal": 27.0
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 8.0,
+       "kcal_100": 900.0,
+       "kcal": 72.0
+      },
+      {
+       "food": "Grana grattugiato",
+       "qty": 10.0,
+       "kcal_100": 392.0,
+       "kcal": 39.2
+      }
+     ]
+    },
+    {
+     "slug": "gnocchi-alla-sorrentina-light",
+     "name": "Gnocchi alla sorrentina light",
+     "when": "Cena · sab",
+     "prep": "Lessa 200 g di gnocchi. Condiscili con 120 g di passata, trasferisci in pirofila con 60 g di mozzarella light a cubetti e 10 g di grana. Gratina in forno 10 min a 200 °C.",
+     "ingredients": "",
+     "kcal": 531.3,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Sabato",
+       "meal": "Cena"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Gnocchi di patate",
+       "qty": 220.0,
+       "kcal_100": 160.0,
+       "kcal": 352.0
+      },
+      {
+       "food": "Passata di pomodoro",
+       "qty": 120.0,
+       "kcal_100": 18.0,
+       "kcal": 21.6
+      },
+      {
+       "food": "Mozzarella light",
+       "qty": 60.0,
+       "kcal_100": 180.0,
+       "kcal": 108.0
+      },
+      {
+       "food": "Grana grattugiato",
+       "qty": 10.0,
+       "kcal_100": 392.0,
+       "kcal": 39.2
+      },
+      {
+       "food": "Valeriana (songino)",
+       "qty": 50.0,
+       "kcal_100": 21.0,
+       "kcal": 10.5
+      }
+     ]
+    },
+    {
+     "slug": "riso-con-polpette-al-sugo",
+     "name": "Riso con polpette al sugo",
+     "when": "Cena · dom",
+     "prep": "Impasta 130 g di macinato con 25 g di uovo, sale e pepe; forma le polpette. Rosolale in 8 g d'olio, unisci 150 g di passata e cuoci 15 min. Servi con 80 g di riso basmati lessato e 10 g di grana.",
+     "ingredients": "",
+     "kcal": 576.7,
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana tipo",
+       "day": "Domenica",
+       "meal": "Cena"
+      }
+     ],
+     "plan_items": [
+      {
+       "food": "Riso basmati",
+       "qty": 70.0,
+       "kcal_100": 350.0,
+       "kcal": 245.0
+      },
+      {
+       "food": "Macinato di manzo magro (crudo)",
+       "qty": 115.0,
+       "kcal_100": 140.0,
+       "kcal": 161.0
+      },
+      {
+       "food": "Uovo (per legare)",
+       "qty": 25.0,
+       "kcal_100": 130.0,
+       "kcal": 32.5
+      },
+      {
+       "food": "Passata di pomodoro",
+       "qty": 150.0,
+       "kcal_100": 18.0,
+       "kcal": 27.0
+      },
+      {
+       "food": "Olio extravergine d'oliva",
+       "qty": 8.0,
+       "kcal_100": 900.0,
+       "kcal": 72.0
+      },
+      {
+       "food": "Grana grattugiato",
+       "qty": 10.0,
+       "kcal_100": 392.0,
+       "kcal": 39.2
+      }
+     ]
+    }
+   ],
+   "extras": [
+    {
+     "title": "ALTRE PROPOSTE (da alternare)",
+     "body": "· Spiedini di pollo alla paprika: 180 g di pollo a cubetti marinati in olio, paprika e limone, cotti in padella o forno, con valeriana e pane integrale. · Polpettone di tacchino: 180 g di macinato di tacchino con uovo, grana e pangrattato, cotto in forno 35 min, servito a fette con pomodori. · Piadina integrale con bresaola e grana: 100 g di piadina, 50 g di bresaola, 20 g di grana a scaglie, valeriana e un filo d'olio. · Chili di manzo in ciotola (senza piadina): stesso chili dei tacos servito con 60 g di pane integrale, per una versione più leggera. · Uova al pomodoro (shakshuka semplificata): 2-3 uova cotte dentro 200 g di passata con cipolla e paprika, con pane integrale per la scarpetta. · Riso freddo estivo: riso basmati lessato e raffreddato con pomodori, cetrioli, uova sode e grana a cubetti — comodo da portare al lavoro."
+    }
+   ],
+   "detail": "items",
+   "stats": {
+    "days": 7,
+    "meals": 28,
+    "meals_with_dish": 14,
+    "linked_meals": 14,
+    "orphans": [],
+    "recipes": 14,
+    "avg_kcal": 1700
+   }
+  },
+  {
+   "key": "rosalia",
+   "name": "Rosalia",
+   "accent": "rose",
+   "plan": {
+    "title": "PIANO ALIMENTARE — ROSALIA · ~1550 kcal/giorno · 5 pasti · 3 settimane",
+    "subtitle": "Colazione · Pranzo · Merenda · Cena · Dopo cena — carboidrati contenuti · yogurt greco solo nelle salse",
+    "weeks": [
+     {
+      "name": "Settimana 1",
+      "days": [
+       {
+        "name": "Lunedì",
+        "total": 1545.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Uova sode, avocado e pane integrale",
+           "slug": "uova-sode-avocado-e-pane-integrale"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Tzatziki chicken salad",
+           "slug": "tzatziki-chicken-salad"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Lasagna fit di zucchine",
+           "slug": "lasagna-fit-di-zucchine"
+          },
+          "items": [],
+          "kcal": 435.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       },
+       {
+        "name": "Martedì",
+        "total": 1535.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Pancake proteici e frutti di bosco",
+           "slug": "pancake-proteici-e-frutti-di-bosco"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Insalatona con legumi e tonno",
+           "slug": "insalatona-con-legumi-e-tonno"
+          },
+          "items": [],
+          "kcal": 420.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Frutta estiva (melone, pesche o uva)",
+           "slug": "frutta-estiva-melone-pesche-o-uva"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Scaloppine light ai funghi",
+           "slug": "scaloppine-light-ai-funghi"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Caprese light",
+           "slug": "caprese-light"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       },
+       {
+        "name": "Mercoledì",
+        "total": 1540.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Pancake all'avena e frutti di bosco",
+           "slug": "pancake-all-avena-e-frutti-di-bosco"
+          },
+          "items": [],
+          "kcal": 335.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "No carbs burger",
+           "slug": "no-carbs-burger"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Spaghetti di zucchine al ragù",
+           "slug": "spaghetti-di-zucchine-al-ragu"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         }
+        ]
+       },
+       {
+        "name": "Giovedì",
+        "total": 1560.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Tortino di ricotta e cioccolato",
+           "slug": "tortino-di-ricotta-e-cioccolato"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "No-fold gyoza di pollo",
+           "slug": "no-fold-gyoza-di-pollo"
+          },
+          "items": [],
+          "kcal": 440.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Caprese light",
+           "slug": "caprese-light"
+          },
+          "items": [],
+          "kcal": 180.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Nuggets di zucchine",
+           "slug": "nuggets-di-zucchine"
+          },
+          "items": [],
+          "kcal": 435.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Frutta estiva (melone, pesche o uva)",
+           "slug": "frutta-estiva-melone-pesche-o-uva"
+          },
+          "items": [],
+          "kcal": 175.0
+         }
+        ]
+       },
+       {
+        "name": "Venerdì",
+        "total": 1540.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Muffin di uova e verdure (2 pz)",
+           "slug": "muffin-di-uova-e-verdure-2-pz"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Tacos ai gamberi",
+           "slug": "tacos-ai-gamberi"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Triangoli orientali",
+           "slug": "triangoli-orientali"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       },
+       {
+        "name": "Sabato",
+        "total": 1550.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Toast con avocado e uovo in camicia",
+           "slug": "toast-con-avocado-e-uovo-in-camicia"
+          },
+          "items": [],
+          "kcal": 335.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Caesar light con pollo",
+           "slug": "caesar-light-con-pollo"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Frutta estiva (melone, pesche o uva)",
+           "slug": "frutta-estiva-melone-pesche-o-uva"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Gnocchi alla sorrentina light",
+           "slug": "gnocchi-alla-sorrentina-light"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Caprese light",
+           "slug": "caprese-light"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       },
+       {
+        "name": "Domenica",
+        "total": 1535.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "French toast proteico alla cannella",
+           "slug": "french-toast-proteico-alla-cannella"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Wrap di lattuga con tacchino",
+           "slug": "wrap-di-lattuga-con-tacchino"
+          },
+          "items": [],
+          "kcal": 420.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Hamburger con contorno",
+           "slug": "hamburger-con-contorno"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Settimana 2",
+      "days": [
+       {
+        "name": "Lunedì",
+        "total": 1545.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Piadina con sottiletta light e tacchino",
+           "slug": "piadina-con-sottiletta-light-e-tacchino"
+          },
+          "items": [],
+          "kcal": 335.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Insalata tonno, cetrioli e mais",
+           "slug": "insalata-tonno-cetrioli-e-mais"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Caprese light",
+           "slug": "caprese-light"
+          },
+          "items": [],
+          "kcal": 180.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Pollo cremoso al limone",
+           "slug": "pollo-cremoso-al-limone"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Frutta estiva (melone, pesche o uva)",
+           "slug": "frutta-estiva-melone-pesche-o-uva"
+          },
+          "items": [],
+          "kcal": 175.0
+         }
+        ]
+       },
+       {
+        "name": "Martedì",
+        "total": 1535.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Uova sode, avocado e pane integrale",
+           "slug": "uova-sode-avocado-e-pane-integrale"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Insalatona di uova, tonno e fagioli",
+           "slug": "insalatona-di-uova-tonno-e-fagioli"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Polpette di merluzzo",
+           "slug": "polpette-di-merluzzo"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       },
+       {
+        "name": "Mercoledì",
+        "total": 1535.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Pancake proteici e frutti di bosco",
+           "slug": "pancake-proteici-e-frutti-di-bosco"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Spaghetti di zucchine e gamberi",
+           "slug": "spaghetti-di-zucchine-e-gamberi"
+          },
+          "items": [],
+          "kcal": 420.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Frutta estiva (melone, pesche o uva)",
+           "slug": "frutta-estiva-melone-pesche-o-uva"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Straccetti di manzo con rucola e grana",
+           "slug": "straccetti-di-manzo-con-rucola-e-grana"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Caprese light",
+           "slug": "caprese-light"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       },
+       {
+        "name": "Giovedì",
+        "total": 1545.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Pancake all'avena e frutti di bosco",
+           "slug": "pancake-all-avena-e-frutti-di-bosco"
+          },
+          "items": [],
+          "kcal": 335.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Rollos vietnamita ai gamberi",
+           "slug": "rollos-vietnamita-ai-gamberi"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Pollo allo zafferano",
+           "slug": "pollo-allo-zafferano"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         }
+        ]
+       },
+       {
+        "name": "Venerdì",
+        "total": 1535.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Tortino di ricotta e cioccolato",
+           "slug": "tortino-di-ricotta-e-cioccolato"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Tagliatelle di zucchine con pollo",
+           "slug": "tagliatelle-di-zucchine-con-pollo"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Caprese light",
+           "slug": "caprese-light"
+          },
+          "items": [],
+          "kcal": 180.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Girelle di pasta fillo",
+           "slug": "girelle-di-pasta-fillo"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Frutta estiva (melone, pesche o uva)",
+           "slug": "frutta-estiva-melone-pesche-o-uva"
+          },
+          "items": [],
+          "kcal": 175.0
+         }
+        ]
+       },
+       {
+        "name": "Sabato",
+        "total": 1550.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Muffin di uova e verdure (2 pz)",
+           "slug": "muffin-di-uova-e-verdure-2-pz"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Tacos al pollo (tex-mex)",
+           "slug": "tacos-al-pollo-tex-mex"
+          },
+          "items": [],
+          "kcal": 440.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Pollo proteico orientale",
+           "slug": "pollo-proteico-orientale"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       },
+       {
+        "name": "Domenica",
+        "total": 1550.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Toast con avocado e uovo in camicia",
+           "slug": "toast-con-avocado-e-uovo-in-camicia"
+          },
+          "items": [],
+          "kcal": 335.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Dumpling ai gamberi",
+           "slug": "dumpling-ai-gamberi"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Frutta estiva (melone, pesche o uva)",
+           "slug": "frutta-estiva-melone-pesche-o-uva"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Insalatona di pollo, avocado e mais",
+           "slug": "insalatona-di-pollo-avocado-e-mais"
+          },
+          "items": [],
+          "kcal": 435.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Caprese light",
+           "slug": "caprese-light"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Settimana 3",
+      "days": [
+       {
+        "name": "Lunedì",
+        "total": 1540.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "French toast proteico alla cannella",
+           "slug": "french-toast-proteico-alla-cannella"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Lattuce rolls di pollo",
+           "slug": "lattuce-rolls-di-pollo"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Polpette al tonno",
+           "slug": "polpette-al-tonno"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         }
+        ]
+       },
+       {
+        "name": "Martedì",
+        "total": 1540.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Piadina con sottiletta light e tacchino",
+           "slug": "piadina-con-sottiletta-light-e-tacchino"
+          },
+          "items": [],
+          "kcal": 335.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Involtini vietnamiti",
+           "slug": "involtini-vietnamiti"
+          },
+          "items": [],
+          "kcal": 420.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Caprese light",
+           "slug": "caprese-light"
+          },
+          "items": [],
+          "kcal": 180.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Spiedini di involtini di zucchine",
+           "slug": "spiedini-di-involtini-di-zucchine"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Frutta estiva (melone, pesche o uva)",
+           "slug": "frutta-estiva-melone-pesche-o-uva"
+          },
+          "items": [],
+          "kcal": 175.0
+         }
+        ]
+       },
+       {
+        "name": "Mercoledì",
+        "total": 1545.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Uova sode, avocado e pane integrale",
+           "slug": "uova-sode-avocado-e-pane-integrale"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Noodles di konjac e pollo",
+           "slug": "noodles-di-konjac-e-pollo"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Lasagna fit di zucchine",
+           "slug": "lasagna-fit-di-zucchine"
+          },
+          "items": [],
+          "kcal": 435.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       },
+       {
+        "name": "Giovedì",
+        "total": 1555.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Pancake proteici e frutti di bosco",
+           "slug": "pancake-proteici-e-frutti-di-bosco"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Wrap agli spinaci e salmone",
+           "slug": "wrap-agli-spinaci-e-salmone"
+          },
+          "items": [],
+          "kcal": 440.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Frutta estiva (melone, pesche o uva)",
+           "slug": "frutta-estiva-melone-pesche-o-uva"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Hamburger con contorno",
+           "slug": "hamburger-con-contorno"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Caprese light",
+           "slug": "caprese-light"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       },
+       {
+        "name": "Venerdì",
+        "total": 1565.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Pancake all'avena e frutti di bosco",
+           "slug": "pancake-all-avena-e-frutti-di-bosco"
+          },
+          "items": [],
+          "kcal": 335.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Tacos al manzo (chili leggero)",
+           "slug": "tacos-al-manzo-chili-leggero"
+          },
+          "items": [],
+          "kcal": 445.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Scaloppine light ai funghi",
+           "slug": "scaloppine-light-ai-funghi"
+          },
+          "items": [],
+          "kcal": 430.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         }
+        ]
+       },
+       {
+        "name": "Sabato",
+        "total": 1545.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Tortino di ricotta e cioccolato",
+           "slug": "tortino-di-ricotta-e-cioccolato"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Sformato di pasta fillo",
+           "slug": "sformato-di-pasta-fillo"
+          },
+          "items": [],
+          "kcal": 435.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Caprese light",
+           "slug": "caprese-light"
+          },
+          "items": [],
+          "kcal": 180.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Tzatziki chicken salad",
+           "slug": "tzatziki-chicken-salad"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Frutta estiva (melone, pesche o uva)",
+           "slug": "frutta-estiva-melone-pesche-o-uva"
+          },
+          "items": [],
+          "kcal": 175.0
+         }
+        ]
+       },
+       {
+        "name": "Domenica",
+        "total": 1545.0,
+        "meals": [
+         {
+          "name": "Colazione",
+          "recipe": {
+           "title": "Muffin di uova e verdure (2 pz)",
+           "slug": "muffin-di-uova-e-verdure-2-pz"
+          },
+          "items": [],
+          "kcal": 330.0
+         },
+         {
+          "name": "Pranzo",
+          "recipe": {
+           "title": "Insalatona di pollo, avocado e mais",
+           "slug": "insalatona-di-pollo-avocado-e-mais"
+          },
+          "items": [],
+          "kcal": 435.0
+         },
+         {
+          "name": "Merenda",
+          "recipe": {
+           "title": "Fiocchi di latte, senape e carote",
+           "slug": "fiocchi-di-latte-senape-e-carote"
+          },
+          "items": [],
+          "kcal": 175.0
+         },
+         {
+          "name": "Cena",
+          "recipe": {
+           "title": "Parmigiana light di zucchine",
+           "slug": "parmigiana-light-di-zucchine"
+          },
+          "items": [],
+          "kcal": 425.0
+         },
+         {
+          "name": "Dopo cena",
+          "recipe": {
+           "title": "Tacchino con fiocchi di latte e pomodorini",
+           "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini"
+          },
+          "items": [],
+          "kcal": 180.0
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "notes": [
+     {
+      "title": "Note",
+      "body": "Note: kcal stimate su porzione singola. Yogurt greco solo come ingrediente di salse, mai al naturale a colazione o merenda. Merenda e dopo cena usano le stesse 4 ricette, sfasate così nella stessa giornata sono diverse."
+     }
+    ],
+    "kcal_target": 1550.0,
+    "meals_per_day": 5,
+    "daily_average": 1544.52
+   },
+   "recipes": [
+    {
+     "slug": "lasagna-fit-di-zucchine",
+     "name": "Lasagna fit di zucchine",
+     "when": "",
+     "prep": "",
+     "ingredients": "170 g macinato magro · 1 zucchina · ½ cipolla · 110 g passata · 55 g mozzarella light · 15 g grana.",
+     "kcal": 435.0,
+     "kcal_label": "435",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Lunedì",
+       "meal": "Cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Mercoledì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "spaghetti-di-zucchine-al-ragu",
+     "name": "Spaghetti di zucchine al ragù",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 zucchine a spaghetti · 165 g macinato magro · 130 g passata · 10 g olio · spezie.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Mercoledì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "tagliatelle-di-zucchine-con-pollo",
+     "name": "Tagliatelle di zucchine con pollo",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 zucchine a spaghetti · 140 g pollo · 90 g pomodorini · 45 g Philadelphia light · 8 g olio.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Venerdì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "spaghetti-di-zucchine-e-gamberi",
+     "name": "Spaghetti di zucchine e gamberi",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 zucchine a spaghetti · 160 g gamberi · 90 g pomodorini · 45 g Philadelphia light · 8 g olio.",
+     "kcal": 420.0,
+     "kcal_label": "420",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Mercoledì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "parmigiana-light-di-zucchine",
+     "name": "Parmigiana light di zucchine",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 zucchine a fette · 100 g tacchino a fette · 60 g mozzarella light · 20 g parmigiano.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 3",
+       "day": "Domenica",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "nuggets-di-zucchine",
+     "name": "Nuggets di zucchine",
+     "when": "",
+     "prep": "",
+     "ingredients": "200 g petto di pollo · 1 zucchina · 25 g parmigiano · 1 uovo · sale e pepe.",
+     "kcal": 435.0,
+     "kcal_label": "435",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Giovedì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "spiedini-di-involtini-di-zucchine",
+     "name": "Spiedini di involtini di zucchine",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 zucchine a fette · 100 g salmone affumicato · 35 g Philadelphia light · 15 g pangrattato · 1 uovo · farina.",
+     "kcal": 430.0,
+     "kcal_label": "430",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 3",
+       "day": "Martedì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "wrap-di-lattuga-con-tacchino",
+     "name": "Wrap di lattuga con tacchino",
+     "when": "",
+     "prep": "",
+     "ingredients": "foglie di lattuga · 110 g fesa di tacchino · 45 g Philadelphia light · 2 uova sode.",
+     "kcal": 420.0,
+     "kcal_label": "420",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Domenica",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "wrap-agli-spinaci-e-salmone",
+     "name": "Wrap agli spinaci e salmone",
+     "when": "",
+     "prep": "",
+     "ingredients": "Wrap: 100 g spinaci + 2 uova + 20 g parmigiano · Ripieno: 90 g salmone + 35 g Philadelphia light · Salsa: 45 g avocado + yogurt greco + limone.",
+     "kcal": 440.0,
+     "kcal_label": "440",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 3",
+       "day": "Giovedì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "lattuce-rolls-di-pollo",
+     "name": "Lattuce rolls di pollo",
+     "when": "",
+     "prep": "",
+     "ingredients": "lattuga · cetrioli · carote · cavolo viola · 165 g pollo · 1 foglio di riso · 8 g olio.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 3",
+       "day": "Lunedì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "dumpling-ai-gamberi",
+     "name": "Dumpling ai gamberi",
+     "when": "",
+     "prep": "",
+     "ingredients": "3 fogli carta di riso · 190 g gamberi · 1 uovo · aglio · spezie. Salsa: teriyaki, limone, peperoncino.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Domenica",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "no-fold-gyoza-di-pollo",
+     "name": "No-fold gyoza di pollo",
+     "when": "",
+     "prep": "",
+     "ingredients": "210 g macinato di pollo · ⅓ carota · ⅓ cipolla · 3 fogli carta di riso · 8 g olio · spezie.",
+     "kcal": 440.0,
+     "kcal_label": "440",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Giovedì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "rollos-vietnamita-ai-gamberi",
+     "name": "Rollos vietnamita ai gamberi",
+     "when": "",
+     "prep": "",
+     "ingredients": "3 fogli carta di riso · cetriolo · carote · 150 g gamberi · insalata. Salsa: soia, burro d'arachidi, miele, lime.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Giovedì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "involtini-vietnamiti",
+     "name": "Involtini vietnamiti",
+     "when": "",
+     "prep": "",
+     "ingredients": "3 fogli carta di riso · cetriolo · carote · insalata · 2 uova sode · 25 g grana. Salsa: 75 g yogurt bianco, concentrato, soia.",
+     "kcal": 420.0,
+     "kcal_label": "420",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 3",
+       "day": "Martedì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "triangoli-orientali",
+     "name": "Triangoli orientali",
+     "when": "",
+     "prep": "",
+     "ingredients": "3 fogli carta di riso · ½ cipolla · 1 carota · 1 zucchina · 3 uova · spezie.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Venerdì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "noodles-di-konjac-e-pollo",
+     "name": "Noodles di konjac e pollo",
+     "when": "",
+     "prep": "",
+     "ingredients": "150 g pollo · 1 zucchina · 1 carota · 100 g konjac · burro d'arachidi · soia · limone.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 3",
+       "day": "Mercoledì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "pollo-proteico-orientale",
+     "name": "Pollo proteico orientale",
+     "when": "",
+     "prep": "",
+     "ingredients": "180 g pollo · cipolla · zucchina · carota · farina · 10 g olio · soia · spezie.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Sabato",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "pollo-cremoso-al-limone",
+     "name": "Pollo cremoso al limone",
+     "when": "",
+     "prep": "",
+     "ingredients": "180 g pollo · 10 g olio · farina · succo di limone · 60 g pane integrale · insalata.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Lunedì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "pollo-allo-zafferano",
+     "name": "Pollo allo zafferano",
+     "when": "",
+     "prep": "",
+     "ingredients": "180 g pollo · farina · zafferano · 60 g pane integrale · insalata · 10 g olio.",
+     "kcal": 430.0,
+     "kcal_label": "430",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Giovedì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "scaloppine-light-ai-funghi",
+     "name": "Scaloppine light ai funghi",
+     "when": "",
+     "prep": "",
+     "ingredients": "180 g pollo · farina · 100 g champignon · 60 g pane integrale · 10 g olio.",
+     "kcal": 430.0,
+     "kcal_label": "430",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Martedì",
+       "meal": "Cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Venerdì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "tzatziki-chicken-salad",
+     "name": "Tzatziki chicken salad",
+     "when": "",
+     "prep": "",
+     "ingredients": "180 g pollo · 130 g yogurt greco · cetriolo · limone · cipolla · 8 g olio · 40 g pane integrale.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Lunedì",
+       "meal": "Pranzo"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Sabato",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "no-carbs-burger",
+     "name": "No carbs burger",
+     "when": "",
+     "prep": "",
+     "ingredients": "170 g macinato magro · foglie d'insalata al posto del pane · 1 sottiletta light · 2 uova.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Mercoledì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "hamburger-con-contorno",
+     "name": "Hamburger con contorno",
+     "when": "",
+     "prep": "",
+     "ingredients": "180 g macinato magro · verdura di contorno · 10 g olio · 40 g pane integrale.",
+     "kcal": 430.0,
+     "kcal_label": "430",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Domenica",
+       "meal": "Cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Giovedì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "polpette-al-tonno",
+     "name": "Polpette al tonno",
+     "when": "",
+     "prep": "",
+     "ingredients": "150 g tonno al naturale · 110 g Philadelphia light · 30 g parmigiano · 1 uovo.",
+     "kcal": 430.0,
+     "kcal_label": "430",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 3",
+       "day": "Lunedì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "polpette-di-merluzzo",
+     "name": "Polpette di merluzzo",
+     "when": "",
+     "prep": "",
+     "ingredients": "190 g merluzzo · 1 uovo · 20 g pangrattato · farina · 100 g salsa di pomodoro · 8 g olio.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Martedì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "insalata-tonno-cetrioli-e-mais",
+     "name": "Insalata tonno, cetrioli e mais",
+     "when": "",
+     "prep": "",
+     "ingredients": "cetrioli · 140 g tonno al naturale · 2 uova sode · cipolla · 70 g mais. Condimento: Philadelphia, yogurt greco, limone, senape.",
+     "kcal": 430.0,
+     "kcal_label": "430",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Lunedì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "girelle-di-pasta-fillo",
+     "name": "Girelle di pasta fillo",
+     "when": "",
+     "prep": "",
+     "ingredients": "45 g pasta fillo · zucchine · 90 g tacchino · 25 g grana · 8 g olio.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Venerdì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "sformato-di-pasta-fillo",
+     "name": "Sformato di pasta fillo",
+     "when": "",
+     "prep": "",
+     "ingredients": "45 g pasta fillo · zucchine · champignon · 150 g macinato magro · parmigiano.",
+     "kcal": 435.0,
+     "kcal_label": "435",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 3",
+       "day": "Sabato",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "gnocchi-alla-sorrentina-light",
+     "name": "Gnocchi alla sorrentina light",
+     "when": "",
+     "prep": "",
+     "ingredients": "130 g gnocchi di patate · 100 g passata · 55 g mozzarella light · 15 g parmigiano.",
+     "kcal": 430.0,
+     "kcal_label": "430",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Sabato",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "insalatona-con-legumi-e-tonno",
+     "name": "Insalatona con legumi e tonno",
+     "when": "",
+     "prep": "",
+     "ingredients": "150 g insalata mista · 150 g legumi in scatola sgocciolati · 80 g mais · 60 g tonno al naturale · 10 g olio EVO · succo di limone, origano.",
+     "kcal": 420.0,
+     "kcal_label": "420",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Martedì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "tacos-ai-gamberi",
+     "name": "Tacos ai gamberi",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 tacos di mais (~50 g) · 90 g gamberi sgusciati · 60 g avocado · 50 g insalata · 60 g pomodorini · 5 g olio EVO · lime, sale, peperoncino.",
+     "kcal": 430.0,
+     "kcal_label": "430",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Venerdì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "tacos-al-pollo-tex-mex",
+     "name": "Tacos al pollo (tex-mex)",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 tacos di mais (~50 g) · 90 g pollo · 50 g fagioli neri · 40 g mais · 40 g insalata · 30 g salsa piccante · 5 g olio · paprika, cumino, lime.",
+     "kcal": 440.0,
+     "kcal_label": "440",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Sabato",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "tacos-al-manzo-chili-leggero",
+     "name": "Tacos al manzo (chili leggero)",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 tacos di mais (~50 g) · 80 g macinato magro · 50 g fagioli rossi · 40 g pomodori · 30 g cipolla · 40 g insalata · 5 g olio · cumino, peperoncino, lime.",
+     "kcal": 445.0,
+     "kcal_label": "445",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 3",
+       "day": "Venerdì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "caesar-light-con-pollo",
+     "name": "Caesar light con pollo",
+     "when": "",
+     "prep": "",
+     "ingredients": "150 g lattuga romana · 150 g pollo · 25 g grana a scaglie · 20 g crostini integrali. Salsa: 60 g yogurt greco, senape, limone, acciuga facoltativa.",
+     "kcal": 430.0,
+     "kcal_label": "430",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Sabato",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "insalatona-di-uova-tonno-e-fagioli",
+     "name": "Insalatona di uova, tonno e fagioli",
+     "when": "",
+     "prep": "",
+     "ingredients": "150 g insalata mista · 2 uova sode · 80 g tonno al naturale · 120 g fagioli cannellini · 60 g pomodorini · 10 g olio EVO · limone.",
+     "kcal": 425.0,
+     "kcal_label": "425",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Martedì",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "insalatona-di-pollo-avocado-e-mais",
+     "name": "Insalatona di pollo, avocado e mais",
+     "when": "",
+     "prep": "",
+     "ingredients": "150 g insalata mista · 150 g pollo · 60 g avocado · 60 g mais · 60 g pomodorini · 8 g olio EVO · lime.",
+     "kcal": 435.0,
+     "kcal_label": "435",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Domenica",
+       "meal": "Cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Domenica",
+       "meal": "Pranzo"
+      }
+     ]
+    },
+    {
+     "slug": "straccetti-di-manzo-con-rucola-e-grana",
+     "name": "Straccetti di manzo con rucola e grana",
+     "when": "",
+     "prep": "",
+     "ingredients": "170 g fettine di manzo magro · 60 g rucola · 30 g grana a scaglie · 10 g olio EVO · limone · 40 g pane integrale.",
+     "kcal": 430.0,
+     "kcal_label": "430",
+     "category": "Pranzi e cene",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Mercoledì",
+       "meal": "Cena"
+      }
+     ]
+    },
+    {
+     "slug": "uova-sode-avocado-e-pane-integrale",
+     "name": "Uova sode, avocado e pane integrale",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 uova · 50 g avocado · 80 g pomodori · 40 g pane integrale.",
+     "kcal": 330.0,
+     "kcal_label": "330",
+     "category": "Colazioni",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Lunedì",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Martedì",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Mercoledì",
+       "meal": "Colazione"
+      }
+     ]
+    },
+    {
+     "slug": "pancake-proteici-e-frutti-di-bosco",
+     "name": "Pancake proteici e frutti di bosco",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 uova · 120 g fiocchi di latte · 70 g frutti di bosco · dolcificante · cannella.",
+     "kcal": 330.0,
+     "kcal_label": "330",
+     "category": "Colazioni",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Martedì",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Mercoledì",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Giovedì",
+       "meal": "Colazione"
+      }
+     ]
+    },
+    {
+     "slug": "pancake-all-avena-e-frutti-di-bosco",
+     "name": "Pancake all'avena e frutti di bosco",
+     "when": "",
+     "prep": "",
+     "ingredients": "40 g farina d'avena · 1 uovo + 100 g albume · 80 g fiocchi di latte · 70 g frutti di bosco · cannella.",
+     "kcal": 335.0,
+     "kcal_label": "335",
+     "category": "Colazioni",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Mercoledì",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Giovedì",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Venerdì",
+       "meal": "Colazione"
+      }
+     ]
+    },
+    {
+     "slug": "tortino-di-ricotta-e-cioccolato",
+     "name": "Tortino di ricotta e cioccolato",
+     "when": "",
+     "prep": "",
+     "ingredients": "90 g ricotta light · 8 g miele · 7 g amido di mais · 5 g gocce di cioccolato · 20 g uovo sbattuto · scorza di limone. + 1 frutto (≈150 g) e 60 g fiocchi di latte.",
+     "kcal": 330.0,
+     "kcal_label": "330",
+     "category": "Colazioni",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Giovedì",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Venerdì",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Sabato",
+       "meal": "Colazione"
+      }
+     ]
+    },
+    {
+     "slug": "muffin-di-uova-e-verdure-2-pz",
+     "name": "Muffin di uova e verdure (2 pz)",
+     "when": "",
+     "prep": "",
+     "ingredients": "2 muffin: 2 uova · 60 g spinaci · 40 g pomodorini · 25 g grana · 40 g pane integrale a parte.",
+     "kcal": 330.0,
+     "kcal_label": "330",
+     "category": "Colazioni",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Venerdì",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Sabato",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Domenica",
+       "meal": "Colazione"
+      }
+     ]
+    },
+    {
+     "slug": "toast-con-avocado-e-uovo-in-camicia",
+     "name": "Toast con avocado e uovo in camicia",
+     "when": "",
+     "prep": "",
+     "ingredients": "50 g pane integrale · 60 g avocado · 1 uovo · pomodorini · sale e pepe.",
+     "kcal": 335.0,
+     "kcal_label": "335",
+     "category": "Colazioni",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Sabato",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Domenica",
+       "meal": "Colazione"
+      }
+     ]
+    },
+    {
+     "slug": "french-toast-proteico-alla-cannella",
+     "name": "French toast proteico alla cannella",
+     "when": "",
+     "prep": "",
+     "ingredients": "60 g pane integrale · 1 uovo · 80 ml latte · cannella · 100 g frutti di bosco · 60 g fiocchi di latte.",
+     "kcal": 330.0,
+     "kcal_label": "330",
+     "category": "Colazioni",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Domenica",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Lunedì",
+       "meal": "Colazione"
+      }
+     ]
+    },
+    {
+     "slug": "piadina-con-sottiletta-light-e-tacchino",
+     "name": "Piadina con sottiletta light e tacchino",
+     "when": "",
+     "prep": "",
+     "ingredients": "70 g piadina integrale · 1 sottiletta light · 60 g fesa di tacchino · insalata · pomodori.",
+     "kcal": 335.0,
+     "kcal_label": "335",
+     "category": "Colazioni",
+     "used_in": [
+      {
+       "week": "Settimana 2",
+       "day": "Lunedì",
+       "meal": "Colazione"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Martedì",
+       "meal": "Colazione"
+      }
+     ]
+    },
+    {
+     "slug": "caprese-light",
+     "name": "Caprese light",
+     "when": "",
+     "prep": "",
+     "ingredients": "70 g mozzarella light · 100 g pomodori · basilico · 5 g olio EVO.",
+     "kcal": 180.0,
+     "kcal_label": "180",
+     "category": "Merende e spuntini dopo cena",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Martedì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 1",
+       "day": "Giovedì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 1",
+       "day": "Sabato",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Lunedì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Mercoledì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Venerdì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Domenica",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Martedì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Giovedì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Sabato",
+       "meal": "Merenda"
+      }
+     ]
+    },
+    {
+     "slug": "fiocchi-di-latte-senape-e-carote",
+     "name": "Fiocchi di latte, senape e carote",
+     "when": "",
+     "prep": "",
+     "ingredients": "140 g fiocchi di latte · 10 g senape · 70 g carote.",
+     "kcal": 175.0,
+     "kcal_label": "175",
+     "category": "Merende e spuntini dopo cena",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Lunedì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 1",
+       "day": "Mercoledì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 1",
+       "day": "Venerdì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 1",
+       "day": "Domenica",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Martedì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Giovedì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Sabato",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Lunedì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Mercoledì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Venerdì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Domenica",
+       "meal": "Merenda"
+      }
+     ]
+    },
+    {
+     "slug": "frutta-estiva-melone-pesche-o-uva",
+     "name": "Frutta estiva (melone, pesche o uva)",
+     "when": "",
+     "prep": "",
+     "ingredients": "≈300 g di frutta estiva a scelta: melone, pesche o uva.",
+     "kcal": 175.0,
+     "kcal_label": "175",
+     "category": "Merende e spuntini dopo cena",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Martedì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 1",
+       "day": "Giovedì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 1",
+       "day": "Sabato",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Lunedì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Mercoledì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Venerdì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Domenica",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Martedì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Giovedì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Sabato",
+       "meal": "Dopo cena"
+      }
+     ]
+    },
+    {
+     "slug": "tacchino-con-fiocchi-di-latte-e-pomodorini",
+     "name": "Tacchino con fiocchi di latte e pomodorini",
+     "when": "",
+     "prep": "",
+     "ingredients": "50 g fesa di tacchino · 110 g fiocchi di latte · 80 g pomodorini.",
+     "kcal": 180.0,
+     "kcal_label": "180",
+     "category": "Merende e spuntini dopo cena",
+     "used_in": [
+      {
+       "week": "Settimana 1",
+       "day": "Lunedì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 1",
+       "day": "Mercoledì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 1",
+       "day": "Venerdì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 1",
+       "day": "Domenica",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Martedì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Giovedì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 2",
+       "day": "Sabato",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Lunedì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Mercoledì",
+       "meal": "Dopo cena"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Venerdì",
+       "meal": "Merenda"
+      },
+      {
+       "week": "Settimana 3",
+       "day": "Domenica",
+       "meal": "Dopo cena"
+      }
+     ]
+    }
+   ],
+   "extras": [],
+   "detail": "dish",
+   "recipes_title": "RICETTE — ROSALIA · porzioni per ~1550 kcal/giorno (1 porzione)",
+   "stats": {
+    "days": 21,
+    "meals": 105,
+    "meals_with_dish": 105,
+    "linked_meals": 105,
+    "orphans": [],
+    "recipes": 49,
+    "avg_kcal": 1545
+   }
+  }
+ ],
+ "to_try": {
+  "title": "RICETTE DA PROVARE",
+  "subtitle": "Non ancora inserite nel piano — da testare e, se piacciono, spostare nel ricettario",
+  "recipes": [
+   {
+    "slug": "spiedini-di-pollo-marinati-allo-yogurt",
+    "name": "Spiedini di pollo marinati allo yogurt",
+    "when": "",
+    "prep": "",
+    "ingredients": "180 g di petto di pollo a cubetti marinati almeno 30 min in 80 g di yogurt greco, succo di limone, paprika, aglio in polvere, sale e pepe. Infilza sugli spiedini e cuoci in padella grill o antiaderente 10-12 min girando spesso. Servi con insalata mista condita con 8 g d'olio e 40 g di pane integrale.",
+    "kcal": 430.0,
+    "kcal_label": "≈430 kcal",
+    "category": "Pranzi e cene"
+   },
+   {
+    "slug": "tortino-agli-spinaci",
+    "name": "Tortino agli spinaci",
+    "when": "",
+    "prep": "",
+    "ingredients": "200 g fiocchi di latte · 2 uova medie · 150 g spinaci freschi · 5 g olio EVO · 5 g parmigiano · sale, pepe, noce moscata. Fai appassire gli spinaci in padella con l'olio, strizzali bene e tritali. Mescolali con i fiocchi di latte, le uova sbattute, il parmigiano e le spezie. Versa in pirofila e cuoci in forno a 180 °C per 25-30 min finché è rappreso e dorato in superficie. Dosi già in linea con il pasto: nessun adattamento necessario.",
+    "kcal": 435.0,
+    "kcal_label": "≈435 kcal",
+    "category": "Pranzi e cene"
+   },
+   {
+    "slug": "chia-pudding-ai-frutti-rossi",
+    "name": "Chia pudding ai frutti rossi",
+    "when": "",
+    "prep": "",
+    "ingredients": "25 g semi di chia · 180 ml latte parz. scremato · 100 g frutti rossi frullati · 10 g miele · 10 g mandorle a lamelle. Mescola chia e latte, lascia in frigo almeno 4 ore (meglio tutta la notte). Al mattino unisci la frutta frullata, il miele e completa con le mandorle. Dosi già in linea: nessun adattamento.",
+    "kcal": 330.0,
+    "kcal_label": "≈330 kcal",
+    "category": "Colazioni"
+   },
+   {
+    "slug": "chia-pudding-al-cocco",
+    "name": "Chia pudding al cocco",
+    "when": "",
+    "prep": "",
+    "ingredients": "25 g semi di chia · 150 ml latte di cocco da bere · 8 g scaglie di cocco · 10 g sciroppo di agave · 80 g frutta fresca · 8 g anacardi. Stessa preparazione: chia nel latte di cocco per una notte, poi guarnisci con frutta, scaglie e anacardi. Dosi già in linea: nessun adattamento.",
+    "kcal": 330.0,
+    "kcal_label": "≈330 kcal",
+    "category": "Colazioni"
+   },
+   {
+    "slug": "chia-pudding-al-cioccolato",
+    "name": "Chia pudding al cioccolato",
+    "when": "",
+    "prep": "",
+    "ingredients": "25 g semi di chia · 180 ml latte parz. scremato · 8 g cacao amaro · 12 g miele · 12 g nocciole tritate · pizzico di sale. Sciogli bene il cacao nel latte prima di unire la chia, così non fa grumi. Riposo in frigo una notte, poi completa con le nocciole. Dosi già in linea: nessun adattamento.",
+    "kcal": 335.0,
+    "kcal_label": "≈335 kcal",
+    "category": "Colazioni"
+   },
+   {
+    "slug": "chia-pudding-tiramisu",
+    "name": "Chia pudding tiramisù",
+    "when": "",
+    "prep": "",
+    "ingredients": "25 g semi di chia · 130 ml latte parz. scremato · 1 tazzina di caffè · 50 g yogurt greco 0% · 10 g miele · 4 g cacao amaro a spolvero · 13 g mandorle. Unisci caffè freddo e latte, aggiungi la chia e lascia riposare una notte; al mattino stratifica con lo yogurt, spolvera di cacao e completa con le mandorle. Mandorle portate da 10 a 13 g per centrare le kcal della colazione.",
+    "kcal": 330.0,
+    "kcal_label": "≈330 kcal",
+    "category": "Colazioni"
+   }
+  ]
+ },
+ "shopping": {
+  "title": "LISTA DELLA SPESA",
+  "subtitle": "Quantità totali per periodo · carne e pesce a crudo · insalate contate a porzioni",
+  "groups": [
+   {
+    "name": "GIOVANNI — 1 settimana (7 giorni)",
+    "person": "giovanni",
+    "label": "1 settimana (7 giorni)",
+    "slug": "giovanni-1-settimana-7-giorni",
+    "categories": [
+     {
+      "name": "Frutta e verdura",
+      "items": [
+       {
+        "name": "Anguria",
+        "qty": "450 g",
+        "id": "giovanni-1-settimana-7-giorni-anguria"
+       },
+       {
+        "name": "Banana",
+        "qty": "420 g",
+        "id": "giovanni-1-settimana-7-giorni-banana"
+       },
+       {
+        "name": "Cetrioli",
+        "qty": "400 g",
+        "id": "giovanni-1-settimana-7-giorni-cetrioli"
+       },
+       {
+        "name": "Cipolla",
+        "qty": "80 g",
+        "id": "giovanni-1-settimana-7-giorni-cipolla"
+       },
+       {
+        "name": "Funghi champignon",
+        "qty": "150 g",
+        "id": "giovanni-1-settimana-7-giorni-funghi-champignon"
+       },
+       {
+        "name": "Pesca",
+        "qty": "520 g",
+        "id": "giovanni-1-settimana-7-giorni-pesca"
+       },
+       {
+        "name": "Pomodori",
+        "qty": "500 g",
+        "id": "giovanni-1-settimana-7-giorni-pomodori"
+       },
+       {
+        "name": "Valeriana (songino)",
+        "qty": "8 porzioni",
+        "id": "giovanni-1-settimana-7-giorni-valeriana-songino"
+       }
+      ]
+     },
+     {
+      "name": "Carne e salumi",
+      "items": [
+       {
+        "name": "Bresaola",
+        "qty": "140 g",
+        "id": "giovanni-1-settimana-7-giorni-bresaola"
+       },
+       {
+        "name": "Macinato di manzo magro (crudo)",
+        "qty": "515 g",
+        "id": "giovanni-1-settimana-7-giorni-macinato-di-manzo-magro-crudo"
+       },
+       {
+        "name": "Petto di pollo (crudo)",
+        "qty": "510 g",
+        "id": "giovanni-1-settimana-7-giorni-petto-di-pollo-crudo"
+       },
+       {
+        "name": "Petto di tacchino (crudo)",
+        "qty": "330 g",
+        "id": "giovanni-1-settimana-7-giorni-petto-di-tacchino-crudo"
+       },
+       {
+        "name": "Prosciutto crudo magro",
+        "qty": "45 g",
+        "id": "giovanni-1-settimana-7-giorni-prosciutto-crudo-magro"
+       }
+      ]
+     },
+     {
+      "name": "Latticini e uova",
+      "items": [
+       {
+        "name": "Fiocchi di latte",
+        "qty": "320 g",
+        "id": "giovanni-1-settimana-7-giorni-fiocchi-di-latte"
+       },
+       {
+        "name": "Grana a scaglie",
+        "qty": "85 g",
+        "id": "giovanni-1-settimana-7-giorni-grana-a-scaglie"
+       },
+       {
+        "name": "Grana grattugiato",
+        "qty": "70 g",
+        "id": "giovanni-1-settimana-7-giorni-grana-grattugiato"
+       },
+       {
+        "name": "Mozzarella light",
+        "qty": "85 g",
+        "id": "giovanni-1-settimana-7-giorni-mozzarella-light"
+       },
+       {
+        "name": "Uova",
+        "qty": "5 pz (≈295 g)",
+        "id": "giovanni-1-settimana-7-giorni-uova"
+       },
+       {
+        "name": "Yogurt greco 2%",
+        "qty": "1.19 kg",
+        "id": "giovanni-1-settimana-7-giorni-yogurt-greco-2"
+       }
+      ]
+     },
+     {
+      "name": "Pane, cereali e dispensa",
+      "items": [
+       {
+        "name": "Fagioli cannellini cotti",
+        "qty": "90 g",
+        "id": "giovanni-1-settimana-7-giorni-fagioli-cannellini-cotti"
+       },
+       {
+        "name": "Fette biscottate integrali (≈5)",
+        "qty": "80 g",
+        "id": "giovanni-1-settimana-7-giorni-fette-biscottate-integrali-5"
+       },
+       {
+        "name": "Gnocchi di patate",
+        "qty": "220 g",
+        "id": "giovanni-1-settimana-7-giorni-gnocchi-di-patate"
+       },
+       {
+        "name": "Lenticchie cotte",
+        "qty": "150 g",
+        "id": "giovanni-1-settimana-7-giorni-lenticchie-cotte"
+       },
+       {
+        "name": "Muesli fatto in casa",
+        "qty": "95 g",
+        "id": "giovanni-1-settimana-7-giorni-muesli-fatto-in-casa"
+       },
+       {
+        "name": "Pane integrale",
+        "qty": "625 g",
+        "id": "giovanni-1-settimana-7-giorni-pane-integrale"
+       },
+       {
+        "name": "Pangrattato",
+        "qty": "25 g",
+        "id": "giovanni-1-settimana-7-giorni-pangrattato"
+       },
+       {
+        "name": "Pasta secca",
+        "qty": "237 g",
+        "id": "giovanni-1-settimana-7-giorni-pasta-secca"
+       },
+       {
+        "name": "Piadina integrale",
+        "qty": "80 g",
+        "id": "giovanni-1-settimana-7-giorni-piadina-integrale"
+       },
+       {
+        "name": "Riso basmati",
+        "qty": "225 g",
+        "id": "giovanni-1-settimana-7-giorni-riso-basmati"
+       }
+      ]
+     },
+     {
+      "name": "Dispensa e condimenti",
+      "items": [
+       {
+        "name": "Farina",
+        "qty": "20 g",
+        "id": "giovanni-1-settimana-7-giorni-farina"
+       },
+       {
+        "name": "Latte di cocco light",
+        "qty": "60 g",
+        "id": "giovanni-1-settimana-7-giorni-latte-di-cocco-light"
+       },
+       {
+        "name": "Marmellata light",
+        "qty": "80 g",
+        "id": "giovanni-1-settimana-7-giorni-marmellata-light"
+       },
+       {
+        "name": "Noci sgusciate",
+        "qty": "57 g",
+        "id": "giovanni-1-settimana-7-giorni-noci-sgusciate"
+       },
+       {
+        "name": "Olio extravergine d'oliva",
+        "qty": "110 g",
+        "id": "giovanni-1-settimana-7-giorni-olio-extravergine-d-oliva"
+       },
+       {
+        "name": "Passata di pomodoro",
+        "qty": "780 g",
+        "id": "giovanni-1-settimana-7-giorni-passata-di-pomodoro"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "ROSALIA — Settimana 1 (7 giorni)",
+    "person": "rosalia",
+    "label": "Settimana 1 (7 giorni)",
+    "slug": "rosalia-settimana-1-7-giorni",
+    "categories": [
+     {
+      "name": "Frutta e verdura",
+      "items": [
+       {
+        "name": "Avocado",
+        "qty": "170 g",
+        "id": "rosalia-settimana-1-7-giorni-avocado"
+       },
+       {
+        "name": "Basilico",
+        "qty": "15 g",
+        "id": "rosalia-settimana-1-7-giorni-basilico"
+       },
+       {
+        "name": "Carote",
+        "qty": "385 g",
+        "id": "rosalia-settimana-1-7-giorni-carote"
+       },
+       {
+        "name": "Cetrioli",
+        "qty": "200 g",
+        "id": "rosalia-settimana-1-7-giorni-cetrioli"
+       },
+       {
+        "name": "Cipolla",
+        "qty": "175 g",
+        "id": "rosalia-settimana-1-7-giorni-cipolla"
+       },
+       {
+        "name": "Frutta estiva (melone/pesche/uva)",
+        "qty": "900 g",
+        "id": "rosalia-settimana-1-7-giorni-frutta-estiva-melone-pesche-uva"
+       },
+       {
+        "name": "Frutta fresca",
+        "qty": "150 g",
+        "id": "rosalia-settimana-1-7-giorni-frutta-fresca"
+       },
+       {
+        "name": "Frutti di bosco",
+        "qty": "240 g",
+        "id": "rosalia-settimana-1-7-giorni-frutti-di-bosco"
+       },
+       {
+        "name": "Funghi champignon",
+        "qty": "100 g",
+        "id": "rosalia-settimana-1-7-giorni-funghi-champignon"
+       },
+       {
+        "name": "Insalata",
+        "qty": "3 porzioni",
+        "id": "rosalia-settimana-1-7-giorni-insalata"
+       },
+       {
+        "name": "Lattuga",
+        "qty": "2 porzioni",
+        "id": "rosalia-settimana-1-7-giorni-lattuga"
+       },
+       {
+        "name": "Lime",
+        "qty": "1 pz",
+        "id": "rosalia-settimana-1-7-giorni-lime"
+       },
+       {
+        "name": "Limoni",
+        "qty": "4 pz",
+        "id": "rosalia-settimana-1-7-giorni-limoni"
+       },
+       {
+        "name": "Pomodori",
+        "qty": "380 g",
+        "id": "rosalia-settimana-1-7-giorni-pomodori"
+       },
+       {
+        "name": "Pomodorini",
+        "qty": "480 g",
+        "id": "rosalia-settimana-1-7-giorni-pomodorini"
+       },
+       {
+        "name": "Spinaci",
+        "qty": "60 g",
+        "id": "rosalia-settimana-1-7-giorni-spinaci"
+       },
+       {
+        "name": "Verdura di contorno",
+        "qty": "150 g",
+        "id": "rosalia-settimana-1-7-giorni-verdura-di-contorno"
+       },
+       {
+        "name": "Zucchine",
+        "qty": "5 pz",
+        "id": "rosalia-settimana-1-7-giorni-zucchine"
+       }
+      ]
+     },
+     {
+      "name": "Carne e salumi",
+      "items": [
+       {
+        "name": "Fesa di tacchino",
+        "qty": "310 g",
+        "id": "rosalia-settimana-1-7-giorni-fesa-di-tacchino"
+       },
+       {
+        "name": "Macinato di pollo",
+        "qty": "210 g",
+        "id": "rosalia-settimana-1-7-giorni-macinato-di-pollo"
+       },
+       {
+        "name": "Macinato magro di manzo",
+        "qty": "685 g",
+        "id": "rosalia-settimana-1-7-giorni-macinato-magro-di-manzo"
+       },
+       {
+        "name": "Petto di pollo",
+        "qty": "710 g",
+        "id": "rosalia-settimana-1-7-giorni-petto-di-pollo"
+       }
+      ]
+     },
+     {
+      "name": "Pesce",
+      "items": [
+       {
+        "name": "Gamberi",
+        "qty": "90 g",
+        "id": "rosalia-settimana-1-7-giorni-gamberi"
+       },
+       {
+        "name": "Tonno al naturale",
+        "qty": "60 g",
+        "id": "rosalia-settimana-1-7-giorni-tonno-al-naturale"
+       }
+      ]
+     },
+     {
+      "name": "Latticini e uova",
+      "items": [
+       {
+        "name": "Albume",
+        "qty": "100 g",
+        "id": "rosalia-settimana-1-7-giorni-albume"
+       },
+       {
+        "name": "Fiocchi di latte",
+        "qty": "1.32 kg",
+        "id": "rosalia-settimana-1-7-giorni-fiocchi-di-latte"
+       },
+       {
+        "name": "Grana",
+        "qty": "65 g",
+        "id": "rosalia-settimana-1-7-giorni-grana"
+       },
+       {
+        "name": "Latte",
+        "qty": "80 ml",
+        "id": "rosalia-settimana-1-7-giorni-latte"
+       },
+       {
+        "name": "Mozzarella light",
+        "qty": "320 g",
+        "id": "rosalia-settimana-1-7-giorni-mozzarella-light"
+       },
+       {
+        "name": "Parmigiano",
+        "qty": "40 g",
+        "id": "rosalia-settimana-1-7-giorni-parmigiano"
+       },
+       {
+        "name": "Philadelphia light",
+        "qty": "45 g",
+        "id": "rosalia-settimana-1-7-giorni-philadelphia-light"
+       },
+       {
+        "name": "Ricotta light",
+        "qty": "90 g",
+        "id": "rosalia-settimana-1-7-giorni-ricotta-light"
+       },
+       {
+        "name": "Sottilette light",
+        "qty": "1 pz",
+        "id": "rosalia-settimana-1-7-giorni-sottilette-light"
+       },
+       {
+        "name": "Uova",
+        "qty": "18 pz",
+        "id": "rosalia-settimana-1-7-giorni-uova"
+       },
+       {
+        "name": "Yogurt greco",
+        "qty": "190 g",
+        "id": "rosalia-settimana-1-7-giorni-yogurt-greco"
+       }
+      ]
+     },
+     {
+      "name": "Dispensa e condimenti",
+      "items": [
+       {
+        "name": "Amido di mais",
+        "qty": "7 g",
+        "id": "rosalia-settimana-1-7-giorni-amido-di-mais"
+       },
+       {
+        "name": "Carta di riso",
+        "qty": "6 fogli",
+        "id": "rosalia-settimana-1-7-giorni-carta-di-riso"
+       },
+       {
+        "name": "Farina",
+        "qty": "10 g",
+        "id": "rosalia-settimana-1-7-giorni-farina"
+       },
+       {
+        "name": "Farina d'avena",
+        "qty": "40 g",
+        "id": "rosalia-settimana-1-7-giorni-farina-d-avena"
+       },
+       {
+        "name": "Gnocchi di patate",
+        "qty": "130 g",
+        "id": "rosalia-settimana-1-7-giorni-gnocchi-di-patate"
+       },
+       {
+        "name": "Gocce di cioccolato",
+        "qty": "5 g",
+        "id": "rosalia-settimana-1-7-giorni-gocce-di-cioccolato"
+       },
+       {
+        "name": "Legumi in scatola",
+        "qty": "150 g",
+        "id": "rosalia-settimana-1-7-giorni-legumi-in-scatola"
+       },
+       {
+        "name": "Mais in scatola",
+        "qty": "80 g",
+        "id": "rosalia-settimana-1-7-giorni-mais-in-scatola"
+       },
+       {
+        "name": "Miele",
+        "qty": "8 g",
+        "id": "rosalia-settimana-1-7-giorni-miele"
+       },
+       {
+        "name": "Olio EVO",
+        "qty": "76 g",
+        "id": "rosalia-settimana-1-7-giorni-olio-evo"
+       },
+       {
+        "name": "Pane integrale",
+        "qty": "350 g",
+        "id": "rosalia-settimana-1-7-giorni-pane-integrale"
+       },
+       {
+        "name": "Passata di pomodoro",
+        "qty": "340 g",
+        "id": "rosalia-settimana-1-7-giorni-passata-di-pomodoro"
+       },
+       {
+        "name": "Senape",
+        "qty": "50 g",
+        "id": "rosalia-settimana-1-7-giorni-senape"
+       },
+       {
+        "name": "Tacos di mais",
+        "qty": "50 g",
+        "id": "rosalia-settimana-1-7-giorni-tacos-di-mais"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "ROSALIA — Settimana 2 (7 giorni)",
+    "person": "rosalia",
+    "label": "Settimana 2 (7 giorni)",
+    "slug": "rosalia-settimana-2-7-giorni",
+    "categories": [
+     {
+      "name": "Frutta e verdura",
+      "items": [
+       {
+        "name": "Avocado",
+        "qty": "170 g",
+        "id": "rosalia-settimana-2-7-giorni-avocado"
+       },
+       {
+        "name": "Basilico",
+        "qty": "20 g",
+        "id": "rosalia-settimana-2-7-giorni-basilico"
+       },
+       {
+        "name": "Carote",
+        "qty": "350 g",
+        "id": "rosalia-settimana-2-7-giorni-carote"
+       },
+       {
+        "name": "Cetrioli",
+        "qty": "300 g",
+        "id": "rosalia-settimana-2-7-giorni-cetrioli"
+       },
+       {
+        "name": "Cipolla",
+        "qty": "80 g",
+        "id": "rosalia-settimana-2-7-giorni-cipolla"
+       },
+       {
+        "name": "Frutta estiva (melone/pesche/uva)",
+        "qty": "1.2 kg",
+        "id": "rosalia-settimana-2-7-giorni-frutta-estiva-melone-pesche-uva"
+       },
+       {
+        "name": "Frutta fresca",
+        "qty": "150 g",
+        "id": "rosalia-settimana-2-7-giorni-frutta-fresca"
+       },
+       {
+        "name": "Frutti di bosco",
+        "qty": "140 g",
+        "id": "rosalia-settimana-2-7-giorni-frutti-di-bosco"
+       },
+       {
+        "name": "Insalata",
+        "qty": "7 porzioni",
+        "id": "rosalia-settimana-2-7-giorni-insalata"
+       },
+       {
+        "name": "Lime",
+        "qty": "2 pz",
+        "id": "rosalia-settimana-2-7-giorni-lime"
+       },
+       {
+        "name": "Limoni",
+        "qty": "5 pz",
+        "id": "rosalia-settimana-2-7-giorni-limoni"
+       },
+       {
+        "name": "Pomodori",
+        "qty": "540 g",
+        "id": "rosalia-settimana-2-7-giorni-pomodori"
+       },
+       {
+        "name": "Pomodorini",
+        "qty": "640 g",
+        "id": "rosalia-settimana-2-7-giorni-pomodorini"
+       },
+       {
+        "name": "Rucola",
+        "qty": "60 g",
+        "id": "rosalia-settimana-2-7-giorni-rucola"
+       },
+       {
+        "name": "Spinaci",
+        "qty": "60 g",
+        "id": "rosalia-settimana-2-7-giorni-spinaci"
+       },
+       {
+        "name": "Zucchine",
+        "qty": "6 pz",
+        "id": "rosalia-settimana-2-7-giorni-zucchine"
+       }
+      ]
+     },
+     {
+      "name": "Carne e salumi",
+      "items": [
+       {
+        "name": "Fesa di tacchino",
+        "qty": "300 g",
+        "id": "rosalia-settimana-2-7-giorni-fesa-di-tacchino"
+       },
+       {
+        "name": "Fettine di manzo magro",
+        "qty": "170 g",
+        "id": "rosalia-settimana-2-7-giorni-fettine-di-manzo-magro"
+       },
+       {
+        "name": "Petto di pollo",
+        "qty": "920 g",
+        "id": "rosalia-settimana-2-7-giorni-petto-di-pollo"
+       }
+      ]
+     },
+     {
+      "name": "Pesce",
+      "items": [
+       {
+        "name": "Gamberi",
+        "qty": "500 g",
+        "id": "rosalia-settimana-2-7-giorni-gamberi"
+       },
+       {
+        "name": "Merluzzo",
+        "qty": "190 g",
+        "id": "rosalia-settimana-2-7-giorni-merluzzo"
+       },
+       {
+        "name": "Tonno al naturale",
+        "qty": "220 g",
+        "id": "rosalia-settimana-2-7-giorni-tonno-al-naturale"
+       }
+      ]
+     },
+     {
+      "name": "Latticini e uova",
+      "items": [
+       {
+        "name": "Albume",
+        "qty": "100 g",
+        "id": "rosalia-settimana-2-7-giorni-albume"
+       },
+       {
+        "name": "Fiocchi di latte",
+        "qty": "1.01 kg",
+        "id": "rosalia-settimana-2-7-giorni-fiocchi-di-latte"
+       },
+       {
+        "name": "Grana",
+        "qty": "80 g",
+        "id": "rosalia-settimana-2-7-giorni-grana"
+       },
+       {
+        "name": "Mozzarella light",
+        "qty": "280 g",
+        "id": "rosalia-settimana-2-7-giorni-mozzarella-light"
+       },
+       {
+        "name": "Philadelphia light",
+        "qty": "110 g",
+        "id": "rosalia-settimana-2-7-giorni-philadelphia-light"
+       },
+       {
+        "name": "Ricotta light",
+        "qty": "90 g",
+        "id": "rosalia-settimana-2-7-giorni-ricotta-light"
+       },
+       {
+        "name": "Sottilette light",
+        "qty": "1 pz",
+        "id": "rosalia-settimana-2-7-giorni-sottilette-light"
+       },
+       {
+        "name": "Uova",
+        "qty": "15 pz",
+        "id": "rosalia-settimana-2-7-giorni-uova"
+       },
+       {
+        "name": "Yogurt greco",
+        "qty": "40 g",
+        "id": "rosalia-settimana-2-7-giorni-yogurt-greco"
+       }
+      ]
+     },
+     {
+      "name": "Dispensa e condimenti",
+      "items": [
+       {
+        "name": "Amido di mais",
+        "qty": "7 g",
+        "id": "rosalia-settimana-2-7-giorni-amido-di-mais"
+       },
+       {
+        "name": "Burro di arachidi",
+        "qty": "15 g",
+        "id": "rosalia-settimana-2-7-giorni-burro-di-arachidi"
+       },
+       {
+        "name": "Carta di riso",
+        "qty": "6 fogli",
+        "id": "rosalia-settimana-2-7-giorni-carta-di-riso"
+       },
+       {
+        "name": "Fagioli cannellini",
+        "qty": "120 g",
+        "id": "rosalia-settimana-2-7-giorni-fagioli-cannellini"
+       },
+       {
+        "name": "Fagioli neri",
+        "qty": "50 g",
+        "id": "rosalia-settimana-2-7-giorni-fagioli-neri"
+       },
+       {
+        "name": "Farina",
+        "qty": "40 g",
+        "id": "rosalia-settimana-2-7-giorni-farina"
+       },
+       {
+        "name": "Farina d'avena",
+        "qty": "40 g",
+        "id": "rosalia-settimana-2-7-giorni-farina-d-avena"
+       },
+       {
+        "name": "Gocce di cioccolato",
+        "qty": "5 g",
+        "id": "rosalia-settimana-2-7-giorni-gocce-di-cioccolato"
+       },
+       {
+        "name": "Mais in scatola",
+        "qty": "170 g",
+        "id": "rosalia-settimana-2-7-giorni-mais-in-scatola"
+       },
+       {
+        "name": "Miele",
+        "qty": "16 g",
+        "id": "rosalia-settimana-2-7-giorni-miele"
+       },
+       {
+        "name": "Olio EVO",
+        "qty": "115 g",
+        "id": "rosalia-settimana-2-7-giorni-olio-evo"
+       },
+       {
+        "name": "Pane integrale",
+        "qty": "290 g",
+        "id": "rosalia-settimana-2-7-giorni-pane-integrale"
+       },
+       {
+        "name": "Pangrattato",
+        "qty": "20 g",
+        "id": "rosalia-settimana-2-7-giorni-pangrattato"
+       },
+       {
+        "name": "Passata di pomodoro",
+        "qty": "100 g",
+        "id": "rosalia-settimana-2-7-giorni-passata-di-pomodoro"
+       },
+       {
+        "name": "Pasta fillo",
+        "qty": "45 g",
+        "id": "rosalia-settimana-2-7-giorni-pasta-fillo"
+       },
+       {
+        "name": "Piadina integrale",
+        "qty": "70 g",
+        "id": "rosalia-settimana-2-7-giorni-piadina-integrale"
+       },
+       {
+        "name": "Salsa di pomodoro piccante",
+        "qty": "30 g",
+        "id": "rosalia-settimana-2-7-giorni-salsa-di-pomodoro-piccante"
+       },
+       {
+        "name": "Salsa di soia",
+        "qty": "15 ml",
+        "id": "rosalia-settimana-2-7-giorni-salsa-di-soia"
+       },
+       {
+        "name": "Salsa teriyaki",
+        "qty": "15 g",
+        "id": "rosalia-settimana-2-7-giorni-salsa-teriyaki"
+       },
+       {
+        "name": "Senape",
+        "qty": "40 g",
+        "id": "rosalia-settimana-2-7-giorni-senape"
+       },
+       {
+        "name": "Tacos di mais",
+        "qty": "50 g",
+        "id": "rosalia-settimana-2-7-giorni-tacos-di-mais"
+       },
+       {
+        "name": "Zafferano",
+        "qty": "1 bustine",
+        "id": "rosalia-settimana-2-7-giorni-zafferano"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "ROSALIA — Settimana 3 (7 giorni)",
+    "person": "rosalia",
+    "label": "Settimana 3 (7 giorni)",
+    "slug": "rosalia-settimana-3-7-giorni",
+    "categories": [
+     {
+      "name": "Frutta e verdura",
+      "items": [
+       {
+        "name": "Avocado",
+        "qty": "155 g",
+        "id": "rosalia-settimana-3-7-giorni-avocado"
+       },
+       {
+        "name": "Basilico",
+        "qty": "15 g",
+        "id": "rosalia-settimana-3-7-giorni-basilico"
+       },
+       {
+        "name": "Carote",
+        "qty": "480 g",
+        "id": "rosalia-settimana-3-7-giorni-carote"
+       },
+       {
+        "name": "Cavolo viola",
+        "qty": "60 g",
+        "id": "rosalia-settimana-3-7-giorni-cavolo-viola"
+       },
+       {
+        "name": "Cetrioli",
+        "qty": "400 g",
+        "id": "rosalia-settimana-3-7-giorni-cetrioli"
+       },
+       {
+        "name": "Cipolla",
+        "qty": "120 g",
+        "id": "rosalia-settimana-3-7-giorni-cipolla"
+       },
+       {
+        "name": "Frutta estiva (melone/pesche/uva)",
+        "qty": "900 g",
+        "id": "rosalia-settimana-3-7-giorni-frutta-estiva-melone-pesche-uva"
+       },
+       {
+        "name": "Frutta fresca",
+        "qty": "150 g",
+        "id": "rosalia-settimana-3-7-giorni-frutta-fresca"
+       },
+       {
+        "name": "Frutti di bosco",
+        "qty": "240 g",
+        "id": "rosalia-settimana-3-7-giorni-frutti-di-bosco"
+       },
+       {
+        "name": "Funghi champignon",
+        "qty": "180 g",
+        "id": "rosalia-settimana-3-7-giorni-funghi-champignon"
+       },
+       {
+        "name": "Insalata",
+        "qty": "4 porzioni",
+        "id": "rosalia-settimana-3-7-giorni-insalata"
+       },
+       {
+        "name": "Lattuga",
+        "qty": "1 porzione",
+        "id": "rosalia-settimana-3-7-giorni-lattuga"
+       },
+       {
+        "name": "Lime",
+        "qty": "2 pz",
+        "id": "rosalia-settimana-3-7-giorni-lime"
+       },
+       {
+        "name": "Limoni",
+        "qty": "3 pz",
+        "id": "rosalia-settimana-3-7-giorni-limoni"
+       },
+       {
+        "name": "Pomodori",
+        "qty": "480 g",
+        "id": "rosalia-settimana-3-7-giorni-pomodori"
+       },
+       {
+        "name": "Pomodorini",
+        "qty": "420 g",
+        "id": "rosalia-settimana-3-7-giorni-pomodorini"
+       },
+       {
+        "name": "Spinaci",
+        "qty": "160 g",
+        "id": "rosalia-settimana-3-7-giorni-spinaci"
+       },
+       {
+        "name": "Verdura di contorno",
+        "qty": "150 g",
+        "id": "rosalia-settimana-3-7-giorni-verdura-di-contorno"
+       },
+       {
+        "name": "Zucchine",
+        "qty": "7 pz",
+        "id": "rosalia-settimana-3-7-giorni-zucchine"
+       }
+      ]
+     },
+     {
+      "name": "Carne e salumi",
+      "items": [
+       {
+        "name": "Fesa di tacchino",
+        "qty": "360 g",
+        "id": "rosalia-settimana-3-7-giorni-fesa-di-tacchino"
+       },
+       {
+        "name": "Macinato magro di manzo",
+        "qty": "580 g",
+        "id": "rosalia-settimana-3-7-giorni-macinato-magro-di-manzo"
+       },
+       {
+        "name": "Petto di pollo",
+        "qty": "825 g",
+        "id": "rosalia-settimana-3-7-giorni-petto-di-pollo"
+       }
+      ]
+     },
+     {
+      "name": "Pesce",
+      "items": [
+       {
+        "name": "Salmone affumicato",
+        "qty": "190 g",
+        "id": "rosalia-settimana-3-7-giorni-salmone-affumicato"
+       },
+       {
+        "name": "Tonno al naturale",
+        "qty": "150 g",
+        "id": "rosalia-settimana-3-7-giorni-tonno-al-naturale"
+       }
+      ]
+     },
+     {
+      "name": "Latticini e uova",
+      "items": [
+       {
+        "name": "Albume",
+        "qty": "100 g",
+        "id": "rosalia-settimana-3-7-giorni-albume"
+       },
+       {
+        "name": "Fiocchi di latte",
+        "qty": "1.32 kg",
+        "id": "rosalia-settimana-3-7-giorni-fiocchi-di-latte"
+       },
+       {
+        "name": "Grana",
+        "qty": "65 g",
+        "id": "rosalia-settimana-3-7-giorni-grana"
+       },
+       {
+        "name": "Latte",
+        "qty": "80 ml",
+        "id": "rosalia-settimana-3-7-giorni-latte"
+       },
+       {
+        "name": "Mozzarella light",
+        "qty": "325 g",
+        "id": "rosalia-settimana-3-7-giorni-mozzarella-light"
+       },
+       {
+        "name": "Parmigiano",
+        "qty": "90 g",
+        "id": "rosalia-settimana-3-7-giorni-parmigiano"
+       },
+       {
+        "name": "Philadelphia light",
+        "qty": "180 g",
+        "id": "rosalia-settimana-3-7-giorni-philadelphia-light"
+       },
+       {
+        "name": "Ricotta light",
+        "qty": "90 g",
+        "id": "rosalia-settimana-3-7-giorni-ricotta-light"
+       },
+       {
+        "name": "Sottilette light",
+        "qty": "1 pz",
+        "id": "rosalia-settimana-3-7-giorni-sottilette-light"
+       },
+       {
+        "name": "Uova",
+        "qty": "15 pz",
+        "id": "rosalia-settimana-3-7-giorni-uova"
+       },
+       {
+        "name": "Yogurt bianco",
+        "qty": "75 g",
+        "id": "rosalia-settimana-3-7-giorni-yogurt-bianco"
+       },
+       {
+        "name": "Yogurt greco",
+        "qty": "160 g",
+        "id": "rosalia-settimana-3-7-giorni-yogurt-greco"
+       }
+      ]
+     },
+     {
+      "name": "Dispensa e condimenti",
+      "items": [
+       {
+        "name": "Amido di mais",
+        "qty": "7 g",
+        "id": "rosalia-settimana-3-7-giorni-amido-di-mais"
+       },
+       {
+        "name": "Burro di arachidi",
+        "qty": "18 g",
+        "id": "rosalia-settimana-3-7-giorni-burro-di-arachidi"
+       },
+       {
+        "name": "Carta di riso",
+        "qty": "4 fogli",
+        "id": "rosalia-settimana-3-7-giorni-carta-di-riso"
+       },
+       {
+        "name": "Concentrato di pomodoro",
+        "qty": "15 g",
+        "id": "rosalia-settimana-3-7-giorni-concentrato-di-pomodoro"
+       },
+       {
+        "name": "Fagioli rossi",
+        "qty": "50 g",
+        "id": "rosalia-settimana-3-7-giorni-fagioli-rossi"
+       },
+       {
+        "name": "Farina",
+        "qty": "20 g",
+        "id": "rosalia-settimana-3-7-giorni-farina"
+       },
+       {
+        "name": "Farina d'avena",
+        "qty": "40 g",
+        "id": "rosalia-settimana-3-7-giorni-farina-d-avena"
+       },
+       {
+        "name": "Gocce di cioccolato",
+        "qty": "5 g",
+        "id": "rosalia-settimana-3-7-giorni-gocce-di-cioccolato"
+       },
+       {
+        "name": "Mais in scatola",
+        "qty": "60 g",
+        "id": "rosalia-settimana-3-7-giorni-mais-in-scatola"
+       },
+       {
+        "name": "Miele",
+        "qty": "8 g",
+        "id": "rosalia-settimana-3-7-giorni-miele"
+       },
+       {
+        "name": "Noodles di konjac",
+        "qty": "100 g",
+        "id": "rosalia-settimana-3-7-giorni-noodles-di-konjac"
+       },
+       {
+        "name": "Olio EVO",
+        "qty": "64 g",
+        "id": "rosalia-settimana-3-7-giorni-olio-evo"
+       },
+       {
+        "name": "Pane integrale",
+        "qty": "280 g",
+        "id": "rosalia-settimana-3-7-giorni-pane-integrale"
+       },
+       {
+        "name": "Pangrattato",
+        "qty": "15 g",
+        "id": "rosalia-settimana-3-7-giorni-pangrattato"
+       },
+       {
+        "name": "Passata di pomodoro",
+        "qty": "110 g",
+        "id": "rosalia-settimana-3-7-giorni-passata-di-pomodoro"
+       },
+       {
+        "name": "Pasta fillo",
+        "qty": "45 g",
+        "id": "rosalia-settimana-3-7-giorni-pasta-fillo"
+       },
+       {
+        "name": "Piadina integrale",
+        "qty": "70 g",
+        "id": "rosalia-settimana-3-7-giorni-piadina-integrale"
+       },
+       {
+        "name": "Salsa di soia",
+        "qty": "15 ml",
+        "id": "rosalia-settimana-3-7-giorni-salsa-di-soia"
+       },
+       {
+        "name": "Senape",
+        "qty": "40 g",
+        "id": "rosalia-settimana-3-7-giorni-senape"
+       },
+       {
+        "name": "Tacos di mais",
+        "qty": "50 g",
+        "id": "rosalia-settimana-3-7-giorni-tacos-di-mais"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
